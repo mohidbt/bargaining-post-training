@@ -1,0 +1,86 @@
+{
+  "bootstrap": {
+    "B": 10000,
+    "seed": 20260802
+  },
+  "episodes_dir": "frontier",
+  "results": {
+    "ext": {
+      "buyer": {
+        "midpoint_reward": {
+          "blind_mean": 0.3456538041179003,
+          "blind_wins": 33,
+          "ci95": [
+            -0.31633022989714793,
+            -0.16540518123731085
+          ],
+          "model_mean": 0.10644159722958864,
+          "model_wins": 2,
+          "paired_mean_model_minus_blind": -0.23921220688831168,
+          "ties": 29
+        },
+        "n": 64,
+        "surplus_share": {
+          "blind_mean": 0.4775144020589502,
+          "blind_wins": 33,
+          "ci95": [
+            -0.22147397207812433,
+            -0.08333468678117101
+          ],
+          "model_mean": 0.32665829861479434,
+          "model_wins": 2,
+          "paired_mean_model_minus_blind": -0.15085610344415584,
+          "ties": 29
+        }
+      },
+      "seller": {
+        "midpoint_reward": {
+          "blind_mean": 0.3148714710874587,
+          "blind_wins": 17,
+          "ci95": [
+            -0.18726217879251597,
+            -0.06911322554348534
+          ],
+          "model_mean": 0.18992276959393053,
+          "model_wins": 3,
+          "paired_mean_model_minus_blind": -0.12494870149352819,
+          "ties": 44
+        },
+        "n": 64,
+        "surplus_share": {
+          "blind_mean": 0.42306073554372936,
+          "blind_wins": 17,
+          "ci95": [
+            -0.2101236050622032,
+            -0.06208734318595744
+          ],
+          "model_mean": 0.29027388479696525,
+          "model_wins": 3,
+          "paired_mean_model_minus_blind": -0.13278685074676408,
+          "ties": 44
+        }
+      }
+    }
+  },
+  "wide_priors": {
+    "buyer": {
+      "anchor_base": 40,
+      "e_opp": 50.0
+    },
+    "seller": {
+      "anchor_base": 110,
+      "e_opp": 100.0
+    }
+  },
+  "winners": {
+    "ext": {
+      "params": {
+        "anchor_off": -20,
+        "e": 0.02,
+        "floor_frac": 1.25,
+        "margin": -5
+      },
+      "priors": "wide"
+    }
+  }
+}

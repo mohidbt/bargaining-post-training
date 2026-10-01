@@ -1,0 +1,72 @@
+{
+  "sources": {
+    "data/training/metrics.json": {
+      "sha256": "cadc71adcfa641027a7e1a48d5d4d32f1a0b8a7f43e83b3876a30991a6e6561b",
+      "bytes": 38207
+    },
+    "data/training/rollouts-1.json": {
+      "sha256": "4599be5d9791ea4443fcc6dbea4900d4831432250194cb8c532976514f3885c0",
+      "bytes": 403680
+    },
+    "data/training/rollouts-5.json": {
+      "sha256": "40a2133e5ea0736ffc85fc41fc128f2552af0d756d59302d1e3e4b276dc73de5",
+      "bytes": 127991
+    },
+    "data/training/rollouts-25.json": {
+      "sha256": "c3a8cb86103c15fc8f2618235578c5ecea67a7da8fe151fcacc07c955ba17a0f",
+      "bytes": 122341
+    },
+    "data/training/rollouts-50.json": {
+      "sha256": "4c63693456c1a3eac46c83ff6cc6d7edbb3011389f57a5421b60edb011010b27",
+      "bytes": 131763
+    },
+    "data/references/bounds.json": {
+      "sha256": "27415fe94b02cd31850ad99a78e0a767e601f3071320063e33169fb2203e50f1",
+      "bytes": 5212
+    },
+    "data/references/vs-blind.json": {
+      "sha256": "122f0b58dd58f045e81114dd406f763179ae0a305477641e955acc4ce1234adf",
+      "bytes": 2035
+    },
+    "data/references/vs-upper.json": {
+      "sha256": "62b123fc7b7ccfa15401c3879a13805dee28b7d431c33d186fdae2d9e3c2d345",
+      "bytes": 1644
+    },
+    "configs/training.toml": {
+      "sha256": "c5b41ffc562ec255681f08b57104aa71c460288482169310d1c9718e5c0c60f2",
+      "bytes": 1176
+    },
+    "market/env.py": {
+      "sha256": "6dac9538c877538682f7fdf1d4baa6a7de2a975cf9e584df576ca496e6bccbff",
+      "bytes": 3558
+    },
+    "market/bots.py": {
+      "sha256": "9f6f01f56f9a309593250ff108fba85be46ec7b7ee9a3c918034b6415f9906af",
+      "bytes": 4190
+    },
+    "market/vf_env.py": {
+      "sha256": "6f412b4dff038b485bfda791b42692a50f93235d134dc650b3259ed5320e8426",
+      "bytes": 15142
+    },
+    "data/frontier/episodes-seller.json": {
+      "sha256": "8ecdaf9f67af056f1a951d1e24683bf4eed46c8ed42dd8b1e1db1c5dfc86cce0",
+      "bytes": 79719
+    },
+    "data/frontier/episodes-buyer.json": {
+      "sha256": "a6d19084694db761bec608e9296b965d06feee14fab7b87e1ac0c022c90c3ea4",
+      "bytes": 75911
+    },
+    "data/frontier/provenance.json": {
+      "sha256": "b5fc0ea38fae088acb93df8b079060bd9d6d0455f886eb8cdb8b77c267909093",
+      "bytes": 322
+    }
+  },
+  "reconstruction": "1536 rows per role, seeds seller 0 / buyer 1, config training.toml. Every step-50 prompt, reward, ending and observed opponent offer verified against reconstruction.",
+  "scope": "Training run two in blog. Metric step labels preserved verbatim, 0 through 51. Archived pages at 1, 5, 25, 50 contain 64 of 512 rollouts each. Repeated setups retained. Sample-level zero advantage, not group share.",
+  "omissions": [
+    "No frozen evaluation for the trained 4B model: omitted from reference comparison.",
+    "No hypothetical profitability classification for timeout/walk, where no agreed price exists.",
+    "No extrapolated archive data between steps. No independent-episode confidence intervals for repeated training rollouts.",
+    "Only the archived exploratory frontier comparison shown."
+  ]
+}

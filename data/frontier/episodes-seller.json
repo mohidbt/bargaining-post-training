@@ -1,0 +1,2988 @@
+[
+ {
+  "i": 0,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 1.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 2,
+  "info": {
+   "c": 48,
+   "v": 99,
+   "horizon": {
+    "mode": "T",
+    "param": 5.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 56,
+   "seed": 2642287231,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(100)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(56)'",
+   "role='assistant' content='#### OFFER(88)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(56)'",
+   "role='assistant' content='#### OFFER(80)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Deadline reached. No deal.'"
+  ]
+ },
+ {
+  "i": 2,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.6065573770491803,
+  "metrics": {
+   "bargaining_reward": 0.6065573770491803,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 41,
+   "v": 102,
+   "horizon": {
+    "mode": "T",
+    "param": 6.0
+   },
+   "seat": "seller",
+   "opponent": "conceder",
+   "opp_e": 2.0702628905742957,
+   "opp_anchor": 45,
+   "seed": 346044072,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(109)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(71)'",
+   "role='assistant' content='#### OFFER(96)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(90)'",
+   "role='assistant' content='#### ACCEPT' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Deal at 90.'"
+  ]
+ },
+ {
+  "i": 4,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.19148936170212766,
+  "metrics": {
+   "bargaining_reward": 0.19148936170212766,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 52,
+   "v": 99,
+   "horizon": {
+    "mode": "T",
+    "param": 4.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.22736718077303172,
+   "opp_anchor": 24,
+   "seed": 3530774891,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(108)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(25)'",
+   "role='assistant' content='#### OFFER(80)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### ACCEPT Deal at 80.'"
+  ]
+ },
+ {
+  "i": 6,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 1.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 2,
+  "info": {
+   "c": 44,
+   "v": 97,
+   "horizon": {
+    "mode": "T",
+    "param": 6.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 57,
+   "seed": 1191476588,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(57)'",
+   "role='assistant' content='#### OFFER(100)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(57)'",
+   "role='assistant' content='#### OFFER(77)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### OFFER(57) Deadline reached. No deal.'"
+  ]
+ },
+ {
+  "i": 8,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 1.0,
+   "zopa_learner_walk_rate": 1.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 52,
+   "v": 106,
+   "horizon": {
+    "mode": "T",
+    "param": 5.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.4180025180015977,
+   "opp_anchor": 32,
+   "seed": 4201486485,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(100)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(35)'",
+   "role='assistant' content='#### OFFER(98)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(69)'",
+   "role='assistant' content='#### WALK' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 10,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.21951219512195122,
+  "metrics": {
+   "bargaining_reward": 0.21951219512195122,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 60,
+   "v": 101,
+   "horizon": {
+    "mode": "T",
+    "param": 4.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.2696636774096722,
+   "opp_anchor": 25,
+   "seed": 513091172,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(26)'",
+   "role='assistant' content='#### OFFER(85)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### ACCEPT Deal at 85.'"
+  ]
+ },
+ {
+  "i": 12,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 1.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 2,
+  "info": {
+   "c": 51,
+   "v": 104,
+   "horizon": {
+    "mode": "T",
+    "param": 6.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 56,
+   "seed": 1005944555,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='I\u2019m opening near the top of the plausible value range, leaving room to negotiate.  \\n#### OFFER(108)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(56)'",
+   "role='assistant' content='#### OFFER(100)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(56)'",
+   "role='assistant' content='#### OFFER(80)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### OFFER(56) Deadline reached. No deal.'"
+  ]
+ },
+ {
+  "i": 14,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.5348837209302325,
+  "metrics": {
+   "bargaining_reward": 0.5348837209302325,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 57,
+   "v": 100,
+   "horizon": {
+    "mode": "T",
+    "param": 5.0
+   },
+   "seat": "seller",
+   "opponent": "conceder",
+   "opp_e": 2.7221653484653956,
+   "opp_anchor": 24,
+   "seed": 4220830701,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(100)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(70)'",
+   "role='assistant' content='#### OFFER(90)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### ACCEPT Deal at 90.'"
+  ]
+ },
+ {
+  "i": 16,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 1.0,
+   "zopa_learner_walk_rate": 1.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 0,
+  "info": {
+   "c": 56,
+   "v": 110,
+   "horizon": {
+    "mode": "T",
+    "param": 3.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.3908159686025452,
+   "opp_anchor": 32,
+   "seed": 3384103228,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(100)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(45)'",
+   "role='assistant' content='#### WALK' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 18,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 57,
+   "v": 103,
+   "horizon": {
+    "mode": "T",
+    "param": 4.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.18639400599674938,
+   "opp_anchor": 50,
+   "seed": 3625093748,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='I open at a price reflecting the available surplus while leaving room to converge.\\n\\n#### OFFER(105)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(50)'",
+   "role='assistant' content='#### OFFER(105)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### WALK Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 20,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 57,
+   "v": 99,
+   "horizon": {
+    "mode": "T",
+    "param": 4.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.18571786866034606,
+   "opp_anchor": 31,
+   "seed": 337573104,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(109)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(31)'",
+   "role='assistant' content='#### OFFER(109)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### WALK Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 22,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.41935483870967744,
+  "metrics": {
+   "bargaining_reward": 0.41935483870967744,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 46,
+   "v": 108,
+   "horizon": {
+    "mode": "T",
+    "param": 4.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.14690368453298952,
+   "opp_anchor": 23,
+   "seed": 150835917,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='I\u2019m opening at a price that reflects the strong surplus available while leaving room to converge over the remaining rounds.\\n\\n#### OFFER(100)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(23)'",
+   "role='assistant' content='That offer is below my cost and cannot support a deal. My final workable price is:\\n\\n#### OFFER(90)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### ACCEPT Deal at 90.'"
+  ]
+ },
+ {
+  "i": 24,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.18518518518518517,
+  "metrics": {
+   "bargaining_reward": 0.18518518518518517,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 42,
+   "v": 96,
+   "horizon": {
+    "mode": "T",
+    "param": 6.0
+   },
+   "seat": "seller",
+   "opponent": "conceder",
+   "opp_e": 3.948184127350711,
+   "opp_anchor": 11,
+   "seed": 2266411664,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='I can offer at 108.  \\n#### OFFER(108)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(68)'",
+   "role='assistant' content='#### OFFER(74)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### ACCEPT Deal at 74.'"
+  ]
+ },
+ {
+  "i": 26,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.28,
+  "metrics": {
+   "bargaining_reward": 0.28,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 0,
+  "info": {
+   "c": 44,
+   "v": 94,
+   "horizon": {
+    "mode": "T",
+    "param": 3.0
+   },
+   "seat": "seller",
+   "opponent": "conceder",
+   "opp_e": 2.1359134243726174,
+   "opp_anchor": 29,
+   "seed": 4051945833,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='I propose 108 as an opening price, leaving room to converge while reflecting the item\u2019s value.\\n\\n#### OFFER(108)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(76)'",
+   "role='assistant' content='#### ACCEPT' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Deal at 76.'"
+  ]
+ },
+ {
+  "i": 28,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.3333333333333333,
+  "metrics": {
+   "bargaining_reward": 0.3333333333333333,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 51,
+   "v": 108,
+   "horizon": {
+    "mode": "T",
+    "param": 6.0
+   },
+   "seat": "seller",
+   "opponent": "conceder",
+   "opp_e": 2.2230224229938895,
+   "opp_anchor": 14,
+   "seed": 3587033861,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(60)'",
+   "role='assistant' content='#### OFFER(95)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(89)'",
+   "role='assistant' content='#### ACCEPT' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Deal at 89.'"
+  ]
+ },
+ {
+  "i": 30,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.1836734693877551,
+  "metrics": {
+   "bargaining_reward": 0.1836734693877551,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 1.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 0,
+  "info": {
+   "c": 52,
+   "v": 101,
+   "horizon": {
+    "mode": "T",
+    "param": 4.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 81,
+   "seed": 1580271258,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(81)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### ACCEPT Deal at 81.'"
+  ]
+ },
+ {
+  "i": 32,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 1.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 55,
+   "v": 108,
+   "horizon": {
+    "mode": "T",
+    "param": 4.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 66,
+   "seed": 1778864719,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(66)'",
+   "role='assistant' content='#### OFFER(85)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### OFFER(66) Deadline reached. No deal.'"
+  ]
+ },
+ {
+  "i": 34,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.47058823529411764,
+  "metrics": {
+   "bargaining_reward": 0.47058823529411764,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 2,
+  "info": {
+   "c": 59,
+   "v": 93,
+   "horizon": {
+    "mode": "T",
+    "param": 6.0
+   },
+   "seat": "seller",
+   "opponent": "conceder",
+   "opp_e": 3.062736104802004,
+   "opp_anchor": 29,
+   "seed": 2151545665,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(108)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(67)'",
+   "role='assistant' content='#### OFFER(104)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(83)'",
+   "role='assistant' content='#### OFFER(84)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### ACCEPT Deal at 84.'"
+  ]
+ },
+ {
+  "i": 36,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 58,
+   "v": 97,
+   "horizon": {
+    "mode": "T",
+    "param": 4.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.20574488088080264,
+   "opp_anchor": 32,
+   "seed": 3069405451,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(105)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(32)'",
+   "role='assistant' content='#### OFFER(105)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### WALK Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 38,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.8604651162790697,
+  "metrics": {
+   "bargaining_reward": 0.8604651162790697,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 50,
+   "v": 93,
+   "horizon": {
+    "mode": "T",
+    "param": 5.0
+   },
+   "seat": "seller",
+   "opponent": "conceder",
+   "opp_e": 3.6971046814256248,
+   "opp_anchor": 47,
+   "seed": 2296216614,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(79)'",
+   "role='assistant' content='#### OFFER(105)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(90)'",
+   "role='assistant' content='#### ACCEPT' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Deal at 90.'"
+  ]
+ },
+ {
+  "i": 40,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.5428571428571428,
+  "metrics": {
+   "bargaining_reward": 0.5428571428571428,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 57,
+   "v": 92,
+   "horizon": {
+    "mode": "T",
+    "param": 4.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.3009534538143317,
+   "opp_anchor": 45,
+   "seed": 440281341,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(90)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(46)'",
+   "role='assistant' content='#### OFFER(84)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### ACCEPT Deal at 84.'"
+  ]
+ },
+ {
+  "i": 42,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 1.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 2,
+  "info": {
+   "c": 46,
+   "v": 90,
+   "horizon": {
+    "mode": "T",
+    "param": 6.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 40,
+   "seed": 3592499895,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(90)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(40)'",
+   "role='assistant' content='#### OFFER(89)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(40)'",
+   "role='assistant' content='#### OFFER(89)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### OFFER(40) Deadline reached. No deal.'"
+  ]
+ },
+ {
+  "i": 44,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.48148148148148145,
+  "metrics": {
+   "bargaining_reward": 0.48148148148148145,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 53,
+   "v": 107,
+   "horizon": {
+    "mode": "T",
+    "param": 6.0
+   },
+   "seat": "seller",
+   "opponent": "conceder",
+   "opp_e": 2.2700277918327703,
+   "opp_anchor": 38,
+   "seed": 491009259,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='I\u2019m opening at the top of the feasible valuation range.  \\n#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(72)'",
+   "role='assistant' content='I can\u2019t accept 72; it is below a fair split given the value range.  \\n#### OFFER(95)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(93)'",
+   "role='assistant' content='#### ACCEPT' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Deal at 93.'"
+  ]
+ },
+ {
+  "i": 46,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 1.0,
+   "zopa_learner_walk_rate": 1.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 0,
+  "info": {
+   "c": 43,
+   "v": 100,
+   "horizon": {
+    "mode": "T",
+    "param": 4.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.3818157166458974,
+   "opp_anchor": 42,
+   "seed": 2725630483,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(45)'",
+   "role='assistant' content='#### WALK' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 48,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 1.0,
+   "zopa_learner_walk_rate": 1.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 0,
+  "info": {
+   "c": 50,
+   "v": 110,
+   "horizon": {
+    "mode": "T",
+    "param": 3.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.1921914724922809,
+   "opp_anchor": 13,
+   "seed": 3700936336,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='I can offer a price reflecting the value and limited bargaining horizon.\\n\\n#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(16)'",
+   "role='assistant' content='#### WALK' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 50,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 1.0,
+   "zopa_learner_walk_rate": 1.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 55,
+   "v": 93,
+   "horizon": {
+    "mode": "T",
+    "param": 5.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.43429606840045365,
+   "opp_anchor": 46,
+   "seed": 3831229362,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(105)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(48)'",
+   "role='assistant' content='#### OFFER(95)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(70)'",
+   "role='assistant' content='#### WALK' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 52,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 1.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 40,
+   "v": 97,
+   "horizon": {
+    "mode": "T",
+    "param": 4.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 46,
+   "seed": 857520469,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(46)'",
+   "role='assistant' content='#### OFFER(75)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### OFFER(46) Deadline reached. No deal.'"
+  ]
+ },
+ {
+  "i": 54,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 1.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 0,
+  "info": {
+   "c": 40,
+   "v": 91,
+   "horizon": {
+    "mode": "T",
+    "param": 2.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.32117013687155793,
+   "opp_anchor": 12,
+   "seed": 988269651,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(100)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### WALK Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 56,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 1.0,
+   "zopa_learner_walk_rate": 1.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 49,
+   "v": 102,
+   "horizon": {
+    "mode": "T",
+    "param": 5.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 53,
+   "seed": 1252645251,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(53)'",
+   "role='assistant' content='#### OFFER(108)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(53)'",
+   "role='assistant' content='#### WALK' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 58,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.05084745762711865,
+  "metrics": {
+   "bargaining_reward": 0.05084745762711865,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 0,
+  "info": {
+   "c": 45,
+   "v": 104,
+   "horizon": {
+    "mode": "T",
+    "param": 3.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 76,
+   "seed": 2065095854,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(105)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(76)'",
+   "role='assistant' content='#### ACCEPT' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Deal at 76.'"
+  ]
+ },
+ {
+  "i": 60,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 1.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 0,
+  "info": {
+   "c": 48,
+   "v": 103,
+   "horizon": {
+    "mode": "T",
+    "param": 2.0
+   },
+   "seat": "seller",
+   "opponent": "conceder",
+   "opp_e": 3.8362090752624325,
+   "opp_anchor": 42,
+   "seed": 4060442981,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(105)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### WALK Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 62,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 1.0,
+   "zopa_learner_walk_rate": 1.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 57,
+   "v": 98,
+   "horizon": {
+    "mode": "T",
+    "param": 5.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.2516296748908645,
+   "opp_anchor": 39,
+   "seed": 2184215696,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(39)'",
+   "role='assistant' content='#### OFFER(100)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(58)'",
+   "role='assistant' content='#### WALK' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 64,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 1.0,
+   "zopa_learner_walk_rate": 1.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 0,
+  "info": {
+   "c": 40,
+   "v": 109,
+   "horizon": {
+    "mode": "T",
+    "param": 3.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 69,
+   "seed": 3379163745,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(69)'",
+   "role='assistant' content='#### WALK' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 66,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.8461538461538461,
+  "metrics": {
+   "bargaining_reward": 0.8461538461538461,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 41,
+   "v": 93,
+   "horizon": {
+    "mode": "T",
+    "param": 5.0
+   },
+   "seat": "seller",
+   "opponent": "conceder",
+   "opp_e": 3.0802307809491225,
+   "opp_anchor": 44,
+   "seed": 1320465004,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(75)'",
+   "role='assistant' content='#### OFFER(100)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(89)'",
+   "role='assistant' content='#### ACCEPT' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Deal at 89.'"
+  ]
+ },
+ {
+  "i": 68,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.5348837209302325,
+  "metrics": {
+   "bargaining_reward": 0.5348837209302325,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 58,
+   "v": 101,
+   "horizon": {
+    "mode": "T",
+    "param": 6.0
+   },
+   "seat": "seller",
+   "opponent": "conceder",
+   "opp_e": 3.2207614023553806,
+   "opp_anchor": 30,
+   "seed": 2270256864,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(108)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(73)'",
+   "role='assistant' content='#### OFFER(94)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(91)'",
+   "role='assistant' content='#### ACCEPT' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Deal at 91.'"
+  ]
+ },
+ {
+  "i": 70,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 1.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 1.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 0,
+  "info": {
+   "c": 53,
+   "v": 107,
+   "horizon": {
+    "mode": "T",
+    "param": 2.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 63,
+   "seed": 816228444,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(80)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### OFFER(63) Deadline reached. No deal.'"
+  ]
+ },
+ {
+  "i": 72,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.4782608695652174,
+  "metrics": {
+   "bargaining_reward": 0.4782608695652174,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 52,
+   "v": 98,
+   "horizon": {
+    "mode": "T",
+    "param": 6.0
+   },
+   "seat": "seller",
+   "opponent": "conceder",
+   "opp_e": 3.162815647584736,
+   "opp_anchor": 15,
+   "seed": 1873696819,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(65)'",
+   "role='assistant' content='#### OFFER(100)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(86)'",
+   "role='assistant' content='#### ACCEPT' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Deal at 86.'"
+  ]
+ },
+ {
+  "i": 74,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 1.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 0,
+  "info": {
+   "c": 44,
+   "v": 95,
+   "horizon": {
+    "mode": "T",
+    "param": 2.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.23244494251930548,
+   "opp_anchor": 19,
+   "seed": 1536816016,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### WALK Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 76,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 1.0,
+   "zopa_learner_walk_rate": 1.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 58,
+   "v": 105,
+   "horizon": {
+    "mode": "T",
+    "param": 5.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 57,
+   "seed": 2064998510,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(105)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(57)'",
+   "role='assistant' content='#### OFFER(90)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(57)'",
+   "role='assistant' content='#### WALK' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 78,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 1.0,
+   "zopa_learner_walk_rate": 1.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 55,
+   "v": 101,
+   "horizon": {
+    "mode": "T",
+    "param": 5.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.3502177208508257,
+   "opp_anchor": 31,
+   "seed": 2077772714,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='I\u2019ll open at the top of the plausible value range.\\n\\n#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(32)'",
+   "role='assistant' content='That is below my cost, so it cannot support a deal. I can move to 100.\\n\\n#### OFFER(100)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(62)'",
+   "role='assistant' content='#### WALK' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 80,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 1.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 48,
+   "v": 98,
+   "horizon": {
+    "mode": "T",
+    "param": 4.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 74,
+   "seed": 548897670,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='I\u2019m opening at the top of the feasible value range.  \\n#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(74)'",
+   "role='assistant' content='#### OFFER(79)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### OFFER(74) Deadline reached. No deal.'"
+  ]
+ },
+ {
+  "i": 82,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 1.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 1.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 0,
+  "info": {
+   "c": 60,
+   "v": 102,
+   "horizon": {
+    "mode": "T",
+    "param": 2.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 101,
+   "seed": 1004911610,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### OFFER(101) Deadline reached. No deal.'"
+  ]
+ },
+ {
+  "i": 84,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.4782608695652174,
+  "metrics": {
+   "bargaining_reward": 0.4782608695652174,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 0,
+  "info": {
+   "c": 52,
+   "v": 98,
+   "horizon": {
+    "mode": "T",
+    "param": 3.0
+   },
+   "seat": "seller",
+   "opponent": "conceder",
+   "opp_e": 3.266674439689808,
+   "opp_anchor": 34,
+   "seed": 2875275965,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(105)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(86)'",
+   "role='assistant' content='#### ACCEPT' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Deal at 86.'"
+  ]
+ },
+ {
+  "i": 86,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 1.0,
+   "zopa_learner_walk_rate": 1.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 0,
+  "info": {
+   "c": 53,
+   "v": 94,
+   "horizon": {
+    "mode": "T",
+    "param": 3.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.16268948176298953,
+   "opp_anchor": 17,
+   "seed": 2299561814,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(80)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(18)'",
+   "role='assistant' content='#### WALK' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 88,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.5172413793103449,
+  "metrics": {
+   "bargaining_reward": 0.5172413793103449,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 0,
+  "info": {
+   "c": 45,
+   "v": 103,
+   "horizon": {
+    "mode": "T",
+    "param": 6.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 89,
+   "seed": 2178918460,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(105)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(89)'",
+   "role='assistant' content='#### ACCEPT' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Deal at 89.'"
+  ]
+ },
+ {
+  "i": 90,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 1.0,
+   "zopa_learner_walk_rate": 1.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 0,
+  "info": {
+   "c": 42,
+   "v": 97,
+   "horizon": {
+    "mode": "T",
+    "param": 3.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 42,
+   "seed": 3482746891,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(78)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(42)'",
+   "role='assistant' content='#### WALK' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 92,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 1.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 2,
+  "info": {
+   "c": 55,
+   "v": 109,
+   "horizon": {
+    "mode": "T",
+    "param": 6.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 61,
+   "seed": 3477334350,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(108)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(61)'",
+   "role='assistant' content='#### OFFER(90)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(61)'",
+   "role='assistant' content='#### OFFER(78)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### OFFER(61) Deadline reached. No deal.'"
+  ]
+ },
+ {
+  "i": 94,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 1.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 0,
+  "info": {
+   "c": 56,
+   "v": 103,
+   "horizon": {
+    "mode": "T",
+    "param": 2.0
+   },
+   "seat": "seller",
+   "opponent": "conceder",
+   "opp_e": 3.4299683550020656,
+   "opp_anchor": 43,
+   "seed": 2044427937,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(109)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### WALK Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 96,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.9512195121951219,
+  "metrics": {
+   "bargaining_reward": 0.9512195121951219,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 50,
+   "v": 91,
+   "horizon": {
+    "mode": "T",
+    "param": 4.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.42468447567258993,
+   "opp_anchor": 19,
+   "seed": 3228819122,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='I open at a high but feasible price to leave room for negotiation.\\n\\n#### OFFER(100)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(24)'",
+   "role='assistant' content='#### OFFER(90)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### ACCEPT Deal at 90.'"
+  ]
+ },
+ {
+  "i": 98,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.5789473684210527,
+  "metrics": {
+   "bargaining_reward": 0.5789473684210527,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 57,
+   "v": 95,
+   "horizon": {
+    "mode": "T",
+    "param": 6.0
+   },
+   "seat": "seller",
+   "opponent": "conceder",
+   "opp_e": 3.280674781073478,
+   "opp_anchor": 41,
+   "seed": 852427760,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='I\u2019ll open near the top of the feasible range.\\n\\n#### OFFER(108)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(74)'",
+   "role='assistant' content='Your offer is below a fair surplus split given my costs. I can move substantially from my opening position.\\n\\n#### OFFER(99)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(87)'",
+   "role='assistant' content='#### ACCEPT' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Deal at 87.'"
+  ]
+ },
+ {
+  "i": 100,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 1.0,
+   "zopa_learner_walk_rate": 1.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 52,
+   "v": 92,
+   "horizon": {
+    "mode": "T",
+    "param": 6.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 75,
+   "seed": 4146188384,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(105)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(75)'",
+   "role='assistant' content='#### OFFER(100)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(75)'",
+   "role='assistant' content='#### WALK' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 102,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 1.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 56,
+   "v": 102,
+   "horizon": {
+    "mode": "T",
+    "param": 4.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 77,
+   "seed": 1568646003,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(100)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(77)'",
+   "role='assistant' content='#### OFFER(90)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### OFFER(77) Deadline reached. No deal.'"
+  ]
+ },
+ {
+  "i": 104,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 1.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 2,
+  "info": {
+   "c": 59,
+   "v": 105,
+   "horizon": {
+    "mode": "T",
+    "param": 6.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 81,
+   "seed": 560496418,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(81)'",
+   "role='assistant' content='#### OFFER(98)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(81)'",
+   "role='assistant' content='#### OFFER(90)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### OFFER(81) Deadline reached. No deal.'"
+  ]
+ },
+ {
+  "i": 106,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.8048780487804879,
+  "metrics": {
+   "bargaining_reward": 0.8048780487804879,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 0,
+  "info": {
+   "c": 49,
+   "v": 90,
+   "horizon": {
+    "mode": "T",
+    "param": 5.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 86,
+   "seed": 1649782856,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(105)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(86)'",
+   "role='assistant' content='#### ACCEPT' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Deal at 86.'"
+  ]
+ },
+ {
+  "i": 108,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 1.0,
+   "zopa_learner_walk_rate": 1.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 0,
+  "info": {
+   "c": 59,
+   "v": 98,
+   "horizon": {
+    "mode": "T",
+    "param": 3.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 69,
+   "seed": 2008600802,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(69)'",
+   "role='assistant' content='#### WALK' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 110,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 1.0,
+   "zopa_learner_walk_rate": 1.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 58,
+   "v": 93,
+   "horizon": {
+    "mode": "T",
+    "param": 5.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.27167780035588696,
+   "opp_anchor": 23,
+   "seed": 246041831,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='I can start at a price that reflects the value and leaves room to close efficiently.\\n\\n#### OFFER(90)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(23)'",
+   "role='assistant' content='That offer is far below my cost and cannot support a transaction. I can move only slightly from my opening position.\\n\\n#### OFFER(89)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(47)'",
+   "role='assistant' content='#### WALK' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 112,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.9487179487179487,
+  "metrics": {
+   "bargaining_reward": 0.9487179487179487,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 2,
+  "info": {
+   "c": 52,
+   "v": 91,
+   "horizon": {
+    "mode": "T",
+    "param": 6.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.15464308534347784,
+   "opp_anchor": 36,
+   "seed": 2790566287,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(108)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(36)'",
+   "role='assistant' content='#### OFFER(100)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(38)'",
+   "role='assistant' content='#### OFFER(90)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### ACCEPT Deal at 90.'"
+  ]
+ },
+ {
+  "i": 114,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 1.0,
+   "zopa_learner_walk_rate": 1.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 52,
+   "v": 100,
+   "horizon": {
+    "mode": "T",
+    "param": 5.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 57,
+   "seed": 3184526917,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(108)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(57)'",
+   "role='assistant' content='#### OFFER(101)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(57)'",
+   "role='assistant' content='#### WALK' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 116,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 1.0,
+   "zopa_learner_walk_rate": 1.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 59,
+   "v": 102,
+   "horizon": {
+    "mode": "T",
+    "param": 5.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 67,
+   "seed": 2926575919,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(90)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(67)'",
+   "role='assistant' content='#### OFFER(86)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(67)'",
+   "role='assistant' content='#### WALK' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 118,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.23404255319148937,
+  "metrics": {
+   "bargaining_reward": 0.23404255319148937,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 2.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 56,
+   "v": 103,
+   "horizon": {
+    "mode": "T",
+    "param": 4.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.3064605407995032,
+   "opp_anchor": 43,
+   "seed": 4181718209,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(45)'",
+   "role='assistant' content='#### OFFER(85)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### ACCEPT Deal at 85.'"
+  ]
+ },
+ {
+  "i": 120,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 1.0,
+   "zopa_learner_walk_rate": 1.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 52,
+   "v": 91,
+   "horizon": {
+    "mode": "T",
+    "param": 5.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.3426711977399948,
+   "opp_anchor": 35,
+   "seed": 1170258615,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(100)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(36)'",
+   "role='assistant' content='#### OFFER(85)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(59)'",
+   "role='assistant' content='#### WALK' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 122,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 1.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 0,
+  "info": {
+   "c": 46,
+   "v": 100,
+   "horizon": {
+    "mode": "T",
+    "param": 2.0
+   },
+   "seat": "seller",
+   "opponent": "conceder",
+   "opp_e": 2.6212491783310385,
+   "opp_anchor": 12,
+   "seed": 3335164976,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### WALK Walkaway. No deal.'"
+  ]
+ },
+ {
+  "i": 124,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.4222222222222222,
+  "metrics": {
+   "bargaining_reward": 0.4222222222222222,
+   "deal_rate": 1.0,
+   "positive_deal_rate": 1.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 0.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 0.0,
+   "learner_walk_rate": 0.0,
+   "zopa_learner_walk_rate": 0.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 2,
+  "info": {
+   "c": 53,
+   "v": 98,
+   "horizon": {
+    "mode": "T",
+    "param": 6.0
+   },
+   "seat": "seller",
+   "opponent": "boulware",
+   "opp_e": 0.2720569659496817,
+   "opp_anchor": 30,
+   "seed": 739001117,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='I\u2019m opening at the top of the plausible value range, leaving room to negotiate while reflecting the asset\u2019s value.\\n\\n#### OFFER(110)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(30)'",
+   "role='assistant' content='That offer is well below my cost. I can make a meaningful move from my opening position, but we need to stay within a realistic bargaining range.\\n\\n#### OFFER(105)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(40)'",
+   "role='assistant' content='I cannot sell below cost. My final substantial concession is:\\n\\n#### OFFER(85)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Opponent: #### ACCEPT Deal at 85.'"
+  ]
+ },
+ {
+  "i": 126,
+  "seat": "seller",
+  "status": "ok",
+  "reward": 0.0,
+  "metrics": {
+   "bargaining_reward": 0.0,
+   "deal_rate": 0.0,
+   "positive_deal_rate": 0.0,
+   "negative_deal_rate": 0.0,
+   "walk_rate": 1.0,
+   "forfeit_rate": 0.0,
+   "timeout_rate": 0.0,
+   "breakdown_rate": 0.0,
+   "zopa_rate": 1.0,
+   "zopa_walk_rate": 1.0,
+   "learner_walk_rate": 1.0,
+   "zopa_learner_walk_rate": 1.0,
+   "num_turns": 3.0
+  },
+  "is_truncated": false,
+  "stop_condition": "has_final_env_response",
+  "error": null,
+  "counteroffers": 1,
+  "info": {
+   "c": 52,
+   "v": 103,
+   "horizon": {
+    "mode": "T",
+    "param": 5.0
+   },
+   "seat": "seller",
+   "opponent": "random_threshold",
+   "opp_e": null,
+   "opp_anchor": 66,
+   "seed": 1136896448,
+   "price_min": 0,
+   "price_max": 150
+  },
+  "completion": [
+   "role='assistant' content='#### OFFER(105)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 3. Opponent: #### OFFER(66)'",
+   "role='assistant' content='#### OFFER(82)' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Round 5. Opponent: #### OFFER(66)'",
+   "role='assistant' content='#### WALK' reasoning_content=None thinking_blocks=None tool_calls=None",
+   "role='user' content='Walkaway. No deal.'"
+  ]
+ }
+]

@@ -1,0 +1,3051 @@
+{
+  "curves": [
+    {
+      "step": 0,
+      "reward/all/mean": -0.3938900913833358,
+      "reward/wide-seller/mean": -0.286069607793777,
+      "filters/wide-seller/zero_advantage": 0.0,
+      "metrics/wide-seller/deal_rate": 0.3359375,
+      "metrics/wide-seller/timeout_rate": 0.18359375,
+      "metrics/wide-seller/walk_rate": 0.12109375,
+      "metrics/wide-seller/forfeit_rate": 0.359375,
+      "reward/wide-buyer/mean": -0.5017105749728947,
+      "filters/wide-buyer/zero_advantage": 0.0,
+      "metrics/wide-buyer/deal_rate": 0.453125,
+      "metrics/wide-buyer/timeout_rate": 0.0546875,
+      "metrics/wide-buyer/walk_rate": 0.09375,
+      "metrics/wide-buyer/forfeit_rate": 0.3984375
+    },
+    {
+      "step": 1,
+      "reward/all/mean": -0.3530190822307313,
+      "reward/wide-seller/mean": -0.280301626670181,
+      "filters/wide-seller/zero_advantage": 0.0,
+      "metrics/wide-seller/deal_rate": 0.3888888888888889,
+      "metrics/wide-seller/timeout_rate": 0.04513888888888889,
+      "metrics/wide-seller/walk_rate": 0.1909722222222222,
+      "metrics/wide-seller/forfeit_rate": 0.375,
+      "reward/wide-buyer/mean": -0.4402800289033916,
+      "filters/wide-buyer/zero_advantage": 0.0,
+      "metrics/wide-buyer/deal_rate": 0.43194444444444446,
+      "metrics/wide-buyer/timeout_rate": 0.008333333333333333,
+      "metrics/wide-buyer/walk_rate": 0.1375,
+      "metrics/wide-buyer/forfeit_rate": 0.4222222222222222
+    },
+    {
+      "step": 2,
+      "reward/all/mean": -0.46262391822824805,
+      "reward/wide-seller/mean": -0.38689515534627295,
+      "filters/wide-seller/zero_advantage": 0.0,
+      "metrics/wide-seller/deal_rate": 0.3045138888888889,
+      "metrics/wide-seller/timeout_rate": 0.09409722222222222,
+      "metrics/wide-seller/walk_rate": 0.17743055555555554,
+      "metrics/wide-seller/forfeit_rate": 0.4239583333333334,
+      "reward/wide-buyer/mean": -0.5058974970179482,
+      "filters/wide-buyer/zero_advantage": 0.0,
+      "metrics/wide-buyer/deal_rate": 0.28869047619047616,
+      "metrics/wide-buyer/timeout_rate": 0.005952380952380952,
+      "metrics/wide-buyer/walk_rate": 0.25892857142857145,
+      "metrics/wide-buyer/forfeit_rate": 0.44642857142857145
+    },
+    {
+      "step": 3,
+      "reward/all/mean": -0.3127489439357659,
+      "reward/wide-seller/mean": -0.2257179244586527,
+      "filters/wide-seller/zero_advantage": 0.0,
+      "metrics/wide-seller/deal_rate": 0.3522727272727273,
+      "metrics/wide-seller/timeout_rate": 0.06534090909090909,
+      "metrics/wide-seller/walk_rate": 0.26988636363636365,
+      "metrics/wide-seller/forfeit_rate": 0.3125,
+      "reward/wide-buyer/mean": -0.4868109828899923,
+      "filters/wide-buyer/zero_advantage": 0.0,
+      "metrics/wide-buyer/deal_rate": 0.26401515151515154,
+      "metrics/wide-buyer/timeout_rate": 0.03409090909090909,
+      "metrics/wide-buyer/walk_rate": 0.23295454545454544,
+      "metrics/wide-buyer/forfeit_rate": 0.46893939393939393
+    },
+    {
+      "step": 4,
+      "reward/all/mean": -0.20401378298399667,
+      "reward/wide-seller/mean": -0.03653340570421225,
+      "filters/wide-seller/zero_advantage": 0.14222222222222222,
+      "metrics/wide-seller/deal_rate": 0.625,
+      "metrics/wide-seller/timeout_rate": 0.2833333333333333,
+      "metrics/wide-seller/walk_rate": 0.0875,
+      "metrics/wide-seller/forfeit_rate": 0.004166666666666667,
+      "reward/wide-buyer/mean": -0.3435807640504837,
+      "filters/wide-buyer/zero_advantage": 0.003484320557491289,
+      "metrics/wide-buyer/deal_rate": 0.8159722222222222,
+      "metrics/wide-buyer/timeout_rate": 0.08680555555555555,
+      "metrics/wide-buyer/walk_rate": 0.09375,
+      "metrics/wide-buyer/forfeit_rate": 0.003472222222222222
+    },
+    {
+      "step": 5,
+      "reward/all/mean": -0.2833130863505814,
+      "reward/wide-seller/mean": -0.26786536815799356,
+      "filters/wide-seller/zero_advantage": 0.0,
+      "metrics/wide-seller/deal_rate": 0.7003205128205129,
+      "metrics/wide-seller/timeout_rate": 0.14102564102564102,
+      "metrics/wide-seller/walk_rate": 0.14903846153846154,
+      "metrics/wide-seller/forfeit_rate": 0.009615384615384616,
+      "reward/wide-buyer/mean": -0.2933541031757636,
+      "filters/wide-buyer/zero_advantage": 0.0,
+      "metrics/wide-buyer/deal_rate": 0.78125,
+      "metrics/wide-buyer/timeout_rate": 0.065625,
+      "metrics/wide-buyer/walk_rate": 0.15,
+      "metrics/wide-buyer/forfeit_rate": 0.003125
+    },
+    {
+      "step": 6,
+      "reward/all/mean": -0.29655270885265145,
+      "reward/wide-seller/mean": -0.09371059450560942,
+      "filters/wide-seller/zero_advantage": 0.0,
+      "metrics/wide-seller/deal_rate": 0.8041666666666667,
+      "metrics/wide-seller/timeout_rate": 0.09583333333333334,
+      "metrics/wide-seller/walk_rate": 0.08333333333333333,
+      "metrics/wide-seller/forfeit_rate": 0.016666666666666666,
+      "reward/wide-buyer/mean": -0.46558780414185313,
+      "filters/wide-buyer/zero_advantage": 0.0,
+      "metrics/wide-buyer/deal_rate": 0.7944444444444445,
+      "metrics/wide-buyer/timeout_rate": 0.0349537037037037,
+      "metrics/wide-buyer/walk_rate": 0.16018518518518518,
+      "metrics/wide-buyer/forfeit_rate": 0.010416666666666666
+    },
+    {
+      "step": 7,
+      "reward/all/mean": -0.10680444192371596,
+      "reward/wide-seller/mean": -0.16612850822154543,
+      "filters/wide-seller/zero_advantage": 0.06639004149377593,
+      "metrics/wide-seller/deal_rate": 0.625,
+      "metrics/wide-seller/timeout_rate": 0.25,
+      "metrics/wide-seller/walk_rate": 0.125,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": -0.05097002658458235,
+      "filters/wide-buyer/zero_advantage": 0.05904059040590406,
+      "metrics/wide-buyer/deal_rate": 0.5144607843137255,
+      "metrics/wide-buyer/timeout_rate": 0.16176470588235295,
+      "metrics/wide-buyer/walk_rate": 0.31642156862745097,
+      "metrics/wide-buyer/forfeit_rate": 0.007352941176470588
+    },
+    {
+      "step": 8,
+      "reward/all/mean": 0.026967019993847412,
+      "reward/wide-seller/mean": 0.016535636851005373,
+      "filters/wide-seller/zero_advantage": 0.13389121338912133,
+      "metrics/wide-seller/deal_rate": 0.53,
+      "metrics/wide-seller/timeout_rate": 0.3283333333333333,
+      "metrics/wide-seller/walk_rate": 0.14166666666666666,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.035659839279549105,
+      "filters/wide-buyer/zero_advantage": 0.0,
+      "metrics/wide-buyer/deal_rate": 0.4027777777777778,
+      "metrics/wide-buyer/timeout_rate": 0.03125,
+      "metrics/wide-buyer/walk_rate": 0.5659722222222222,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 9,
+      "reward/all/mean": 0.0647131839403197,
+      "reward/wide-seller/mean": 0.10866309704478308,
+      "filters/wide-seller/zero_advantage": 0.05860805860805861,
+      "metrics/wide-seller/deal_rate": 0.7291666666666666,
+      "metrics/wide-seller/timeout_rate": 0.1597222222222222,
+      "metrics/wide-seller/walk_rate": 0.1111111111111111,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.011973288214963672,
+      "filters/wide-buyer/zero_advantage": 0.0,
+      "metrics/wide-buyer/deal_rate": 0.3091666666666667,
+      "metrics/wide-buyer/timeout_rate": 0.08888888888888888,
+      "metrics/wide-buyer/walk_rate": 0.5977777777777777,
+      "metrics/wide-buyer/forfeit_rate": 0.004166666666666667
+    },
+    {
+      "step": 10,
+      "reward/all/mean": 0.10579709506264716,
+      "reward/wide-seller/mean": 0.1130061290846425,
+      "filters/wide-seller/zero_advantage": 0.05574912891986063,
+      "metrics/wide-seller/deal_rate": 0.5930555555555556,
+      "metrics/wide-seller/timeout_rate": 0.20555555555555555,
+      "metrics/wide-seller/walk_rate": 0.2013888888888889,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.09714625423625275,
+      "filters/wide-buyer/zero_advantage": 0.21777777777777776,
+      "metrics/wide-buyer/deal_rate": 0.25833333333333336,
+      "metrics/wide-buyer/timeout_rate": 0.14583333333333334,
+      "metrics/wide-buyer/walk_rate": 0.5958333333333333,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 11,
+      "reward/all/mean": 0.1395857793101039,
+      "reward/wide-seller/mean": 0.16998120085472712,
+      "filters/wide-seller/zero_advantage": 0.3125,
+      "metrics/wide-seller/deal_rate": 0.453125,
+      "metrics/wide-seller/timeout_rate": 0.328125,
+      "metrics/wide-seller/walk_rate": 0.21875,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.11097832373869385,
+      "filters/wide-buyer/zero_advantage": 0.5625,
+      "metrics/wide-buyer/deal_rate": 0.18382352941176472,
+      "metrics/wide-buyer/timeout_rate": 0.15098039215686274,
+      "metrics/wide-buyer/walk_rate": 0.6651960784313725,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 12,
+      "reward/all/mean": 0.07876711730011635,
+      "reward/wide-seller/mean": 0.07066798400190508,
+      "filters/wide-seller/zero_advantage": 0.2352941176470588,
+      "metrics/wide-seller/deal_rate": 0.3897058823529412,
+      "metrics/wide-seller/timeout_rate": 0.35294117647058826,
+      "metrics/wide-seller/walk_rate": 0.2536764705882353,
+      "metrics/wide-seller/forfeit_rate": 0.003676470588235294,
+      "reward/wide-buyer/mean": 0.08737244642946583,
+      "filters/wide-buyer/zero_advantage": 0.5958333333333333,
+      "metrics/wide-buyer/deal_rate": 0.12890625,
+      "metrics/wide-buyer/timeout_rate": 0.23046875,
+      "metrics/wide-buyer/walk_rate": 0.640625,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 13,
+      "reward/all/mean": 0.23214784129794175,
+      "reward/wide-seller/mean": 0.24452341781299877,
+      "filters/wide-seller/zero_advantage": 0.4139194139194139,
+      "metrics/wide-seller/deal_rate": 0.3993055555555556,
+      "metrics/wide-seller/timeout_rate": 0.4236111111111111,
+      "metrics/wide-seller/walk_rate": 0.17708333333333334,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.21729714947987347,
+      "filters/wide-buyer/zero_advantage": 0.401673640167364,
+      "metrics/wide-buyer/deal_rate": 0.3222222222222222,
+      "metrics/wide-buyer/timeout_rate": 0.2313888888888889,
+      "metrics/wide-buyer/walk_rate": 0.4463888888888888,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 14,
+      "reward/all/mean": 0.09877990353553644,
+      "reward/wide-seller/mean": 0.1312268210770171,
+      "filters/wide-seller/zero_advantage": 0.5276752767527675,
+      "metrics/wide-seller/deal_rate": 0.1948529411764706,
+      "metrics/wide-seller/timeout_rate": 0.6355392156862746,
+      "metrics/wide-seller/walk_rate": 0.1696078431372549,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.06430505364771326,
+      "filters/wide-buyer/zero_advantage": 0.6639004149377593,
+      "metrics/wide-buyer/deal_rate": 0.10546875,
+      "metrics/wide-buyer/timeout_rate": 0.421875,
+      "metrics/wide-buyer/walk_rate": 0.47265625,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 15,
+      "reward/all/mean": 0.21442471615742353,
+      "reward/wide-seller/mean": 0.3127903769134356,
+      "filters/wide-seller/zero_advantage": 0.15311004784688995,
+      "metrics/wide-seller/deal_rate": 0.45982142857142855,
+      "metrics/wide-seller/timeout_rate": 0.3883928571428571,
+      "metrics/wide-seller/walk_rate": 0.15178571428571427,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.14194475560036202,
+      "filters/wide-buyer/zero_advantage": 0.6864686468646864,
+      "metrics/wide-buyer/deal_rate": 0.1846491228070175,
+      "metrics/wide-buyer/timeout_rate": 0.4144736842105263,
+      "metrics/wide-buyer/walk_rate": 0.40087719298245617,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 16,
+      "reward/all/mean": 0.2279744631105961,
+      "reward/wide-seller/mean": 0.25481805874057406,
+      "filters/wide-seller/zero_advantage": 0.5015673981191222,
+      "metrics/wide-seller/deal_rate": 0.3929166666666667,
+      "metrics/wide-seller/timeout_rate": 0.54375,
+      "metrics/wide-seller/walk_rate": 0.06333333333333332,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.18667662367986088,
+      "filters/wide-buyer/zero_advantage": 0.5854922279792746,
+      "metrics/wide-buyer/deal_rate": 0.2548076923076923,
+      "metrics/wide-buyer/timeout_rate": 0.5673076923076923,
+      "metrics/wide-buyer/walk_rate": 0.1778846153846154,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 17,
+      "reward/all/mean": 0.20086934557273645,
+      "reward/wide-seller/mean": 0.2599979970547396,
+      "filters/wide-seller/zero_advantage": 0.4666666666666667,
+      "metrics/wide-seller/deal_rate": 0.37916666666666665,
+      "metrics/wide-seller/timeout_rate": 0.5208333333333334,
+      "metrics/wide-seller/walk_rate": 0.1,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.15159546933773385,
+      "filters/wide-buyer/zero_advantage": 0.7610294117647058,
+      "metrics/wide-buyer/deal_rate": 0.2777777777777778,
+      "metrics/wide-buyer/timeout_rate": 0.7152777777777778,
+      "metrics/wide-buyer/walk_rate": 0.006944444444444444,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 18,
+      "reward/all/mean": 0.18948726863966567,
+      "reward/wide-seller/mean": 0.10304006177719822,
+      "filters/wide-seller/zero_advantage": 0.625,
+      "metrics/wide-seller/deal_rate": 0.16796875,
+      "metrics/wide-seller/timeout_rate": 0.71484375,
+      "metrics/wide-seller/walk_rate": 0.1171875,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.27084934568669383,
+      "filters/wide-buyer/zero_advantage": 0.5,
+      "metrics/wide-buyer/deal_rate": 0.35294117647058826,
+      "metrics/wide-buyer/timeout_rate": 0.5919117647058824,
+      "metrics/wide-buyer/walk_rate": 0.05514705882352941,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 19,
+      "reward/all/mean": 0.24929542137752111,
+      "reward/wide-seller/mean": 0.24955146923737895,
+      "filters/wide-seller/zero_advantage": 0.47619047619047616,
+      "metrics/wide-seller/deal_rate": 0.41369047619047616,
+      "metrics/wide-seller/timeout_rate": 0.5476190476190477,
+      "metrics/wide-seller/walk_rate": 0.03869047619047619,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.24884733762276992,
+      "filters/wide-buyer/zero_advantage": 0.5511363636363636,
+      "metrics/wide-buyer/deal_rate": 0.3854166666666667,
+      "metrics/wide-buyer/timeout_rate": 0.5833333333333334,
+      "metrics/wide-buyer/walk_rate": 0.03125,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 20,
+      "reward/all/mean": 0.2921524301765104,
+      "reward/wide-seller/mean": 0.2829769125037285,
+      "filters/wide-seller/zero_advantage": 0.38461538461538464,
+      "metrics/wide-seller/deal_rate": 0.5240384615384616,
+      "metrics/wide-seller/timeout_rate": 0.4759615384615384,
+      "metrics/wide-seller/walk_rate": 0.0,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.29811651666381866,
+      "filters/wide-buyer/zero_advantage": 0.5789473684210527,
+      "metrics/wide-buyer/deal_rate": 0.4,
+      "metrics/wide-buyer/timeout_rate": 0.5875,
+      "metrics/wide-buyer/walk_rate": 0.0125,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 21,
+      "reward/all/mean": 0.1946210985615729,
+      "reward/wide-seller/mean": 0.13184948360048063,
+      "filters/wide-seller/zero_advantage": 0.5642023346303502,
+      "metrics/wide-seller/deal_rate": 0.3602941176470588,
+      "metrics/wide-seller/timeout_rate": 0.6397058823529411,
+      "metrics/wide-seller/walk_rate": 0.0,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.26131593945773346,
+      "filters/wide-buyer/zero_advantage": 0.4980392156862745,
+      "metrics/wide-buyer/deal_rate": 0.3671875,
+      "metrics/wide-buyer/timeout_rate": 0.59765625,
+      "metrics/wide-buyer/walk_rate": 0.03515625,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 22,
+      "reward/all/mean": 0.30674962255049854,
+      "reward/wide-seller/mean": 0.23498685920093623,
+      "filters/wide-seller/zero_advantage": 0.5384615384615384,
+      "metrics/wide-seller/deal_rate": 0.33482142857142855,
+      "metrics/wide-seller/timeout_rate": 0.6473214285714286,
+      "metrics/wide-seller/walk_rate": 0.017857142857142856,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.3596274481764918,
+      "filters/wide-buyer/zero_advantage": 0.42105263157894735,
+      "metrics/wide-buyer/deal_rate": 0.5164473684210527,
+      "metrics/wide-buyer/timeout_rate": 0.3651315789473684,
+      "metrics/wide-buyer/walk_rate": 0.11842105263157894,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 23,
+      "reward/all/mean": 0.23375215663788615,
+      "reward/wide-seller/mean": 0.17416797839796788,
+      "filters/wide-seller/zero_advantage": 0.5987460815047022,
+      "metrics/wide-seller/deal_rate": 0.353125,
+      "metrics/wide-seller/timeout_rate": 0.646875,
+      "metrics/wide-seller/walk_rate": 0.0,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.3254201231608374,
+      "filters/wide-buyer/zero_advantage": 0.4196891191709845,
+      "metrics/wide-buyer/deal_rate": 0.5384615384615384,
+      "metrics/wide-buyer/timeout_rate": 0.4615384615384616,
+      "metrics/wide-buyer/walk_rate": 0.0,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 24,
+      "reward/all/mean": 0.2742945945573682,
+      "reward/wide-seller/mean": 0.30237602640366185,
+      "filters/wide-seller/zero_advantage": 0.3684210526315789,
+      "metrics/wide-seller/deal_rate": 0.6118421052631579,
+      "metrics/wide-seller/timeout_rate": 0.3223684210526316,
+      "metrics/wide-seller/walk_rate": 0.06578947368421052,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.23618407990882676,
+      "filters/wide-buyer/zero_advantage": 0.6153846153846154,
+      "metrics/wide-buyer/deal_rate": 0.3125,
+      "metrics/wide-buyer/timeout_rate": 0.5,
+      "metrics/wide-buyer/walk_rate": 0.1875,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 25,
+      "reward/all/mean": 0.25024185185653797,
+      "reward/wide-seller/mean": 0.3751975698373406,
+      "filters/wide-seller/zero_advantage": 0.5688888888888889,
+      "metrics/wide-seller/deal_rate": 0.5333333333333333,
+      "metrics/wide-seller/timeout_rate": 0.4666666666666667,
+      "metrics/wide-seller/walk_rate": 0.0,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.14611208687253577,
+      "filters/wide-buyer/zero_advantage": 0.7770034843205574,
+      "metrics/wide-buyer/deal_rate": 0.17708333333333334,
+      "metrics/wide-buyer/timeout_rate": 0.4444444444444444,
+      "metrics/wide-buyer/walk_rate": 0.3784722222222222,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 26,
+      "reward/all/mean": 0.3070986069580325,
+      "reward/wide-seller/mean": 0.4344555993921193,
+      "filters/wide-seller/zero_advantage": 0.3368055555555556,
+      "metrics/wide-seller/deal_rate": 0.6644736842105263,
+      "metrics/wide-seller/timeout_rate": 0.3157894736842105,
+      "metrics/wide-seller/walk_rate": 0.019736842105263157,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.13425697436891468,
+      "filters/wide-buyer/zero_advantage": 0.8571428571428571,
+      "metrics/wide-buyer/deal_rate": 0.21428571428571427,
+      "metrics/wide-buyer/timeout_rate": 0.7142857142857143,
+      "metrics/wide-buyer/walk_rate": 0.07142857142857142,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 27,
+      "reward/all/mean": 0.19924402791022636,
+      "reward/wide-seller/mean": 0.2733725036519286,
+      "filters/wide-seller/zero_advantage": 0.7130044843049327,
+      "metrics/wide-seller/deal_rate": 0.4330357142857143,
+      "metrics/wide-seller/timeout_rate": 0.5669642857142857,
+      "metrics/wide-seller/walk_rate": 0.0,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.14462304578476157,
+      "filters/wide-buyer/zero_advantage": 0.8858131487889274,
+      "metrics/wide-buyer/deal_rate": 0.1611842105263158,
+      "metrics/wide-buyer/timeout_rate": 0.7368421052631579,
+      "metrics/wide-buyer/walk_rate": 0.10197368421052631,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 28,
+      "reward/all/mean": 0.3703938908909411,
+      "reward/wide-seller/mean": 0.349610527676444,
+      "filters/wide-seller/zero_advantage": 0.4980544747081712,
+      "metrics/wide-seller/deal_rate": 0.49264705882352944,
+      "metrics/wide-seller/timeout_rate": 0.4117647058823529,
+      "metrics/wide-seller/walk_rate": 0.09558823529411764,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.39247621430634433,
+      "filters/wide-buyer/zero_advantage": 0.4392156862745098,
+      "metrics/wide-buyer/deal_rate": 0.55859375,
+      "metrics/wide-buyer/timeout_rate": 0.44140625,
+      "metrics/wide-buyer/walk_rate": 0.0,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 29,
+      "reward/all/mean": 0.18877942877260237,
+      "reward/wide-seller/mean": 0.2581569090264862,
+      "filters/wide-seller/zero_advantage": 0.5294117647058824,
+      "metrics/wide-seller/deal_rate": 0.39305555555555555,
+      "metrics/wide-seller/timeout_rate": 0.5,
+      "metrics/wide-seller/walk_rate": 0.10694444444444444,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.10552645246794184,
+      "filters/wide-buyer/zero_advantage": 0.8,
+      "metrics/wide-buyer/deal_rate": 0.14583333333333334,
+      "metrics/wide-buyer/timeout_rate": 0.7875,
+      "metrics/wide-buyer/walk_rate": 0.06666666666666667,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 30,
+      "reward/all/mean": 0.23959056987467395,
+      "reward/wide-seller/mean": 0.27074209318344333,
+      "filters/wide-seller/zero_advantage": 0.5916666666666667,
+      "metrics/wide-seller/deal_rate": 0.43359375,
+      "metrics/wide-seller/timeout_rate": 0.44921875,
+      "metrics/wide-seller/walk_rate": 0.1171875,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.2102714891134793,
+      "filters/wide-buyer/zero_advantage": 0.7058823529411765,
+      "metrics/wide-buyer/deal_rate": 0.28308823529411764,
+      "metrics/wide-buyer/timeout_rate": 0.7058823529411765,
+      "metrics/wide-buyer/walk_rate": 0.011029411764705885,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 31,
+      "reward/all/mean": 0.30158324767790456,
+      "reward/wide-seller/mean": 0.3458290814088722,
+      "filters/wide-seller/zero_advantage": 0.44140625,
+      "metrics/wide-seller/deal_rate": 0.5882352941176471,
+      "metrics/wide-seller/timeout_rate": 0.4117647058823529,
+      "metrics/wide-seller/walk_rate": 0.0,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.25457204933875144,
+      "filters/wide-buyer/zero_advantage": 0.75,
+      "metrics/wide-buyer/deal_rate": 0.37890625,
+      "metrics/wide-buyer/timeout_rate": 0.5625,
+      "metrics/wide-buyer/walk_rate": 0.05859375,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 32,
+      "reward/all/mean": 0.23422608379131493,
+      "reward/wide-seller/mean": 0.29700870811543567,
+      "filters/wide-seller/zero_advantage": 0.4615384615384616,
+      "metrics/wide-seller/deal_rate": 0.5,
+      "metrics/wide-seller/timeout_rate": 0.5,
+      "metrics/wide-seller/walk_rate": 0.0,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.1879652027103838,
+      "filters/wide-buyer/zero_advantage": 0.7368421052631579,
+      "metrics/wide-buyer/deal_rate": 0.2631578947368421,
+      "metrics/wide-buyer/timeout_rate": 0.7368421052631579,
+      "metrics/wide-buyer/walk_rate": 0.0,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 33,
+      "reward/all/mean": 0.20149936624552175,
+      "reward/wide-seller/mean": 0.2933132400193966,
+      "filters/wide-seller/zero_advantage": 0.54858934169279,
+      "metrics/wide-seller/deal_rate": 0.496875,
+      "metrics/wide-seller/timeout_rate": 0.45,
+      "metrics/wide-seller/walk_rate": 0.053125,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.06024725274725274,
+      "filters/wide-buyer/zero_advantage": 0.8341968911917098,
+      "metrics/wide-buyer/deal_rate": 0.15384615384615383,
+      "metrics/wide-buyer/timeout_rate": 0.8461538461538461,
+      "metrics/wide-buyer/walk_rate": 0.0,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 34,
+      "reward/all/mean": 0.2478335889187499,
+      "reward/wide-seller/mean": 0.2582937072406437,
+      "filters/wide-seller/zero_advantage": 0.5714285714285714,
+      "metrics/wide-seller/deal_rate": 0.41517857142857145,
+      "metrics/wide-seller/timeout_rate": 0.5714285714285714,
+      "metrics/wide-seller/walk_rate": 0.013392857142857142,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.24012613331314392,
+      "filters/wide-buyer/zero_advantage": 0.6111111111111112,
+      "metrics/wide-buyer/deal_rate": 0.3684210526315789,
+      "metrics/wide-buyer/timeout_rate": 0.42105263157894735,
+      "metrics/wide-buyer/walk_rate": 0.21052631578947367,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 35,
+      "reward/all/mean": 0.25563872667851667,
+      "reward/wide-seller/mean": 0.2797018453701001,
+      "filters/wide-seller/zero_advantage": 0.5311355311355311,
+      "metrics/wide-seller/deal_rate": 0.4791666666666667,
+      "metrics/wide-seller/timeout_rate": 0.5,
+      "metrics/wide-seller/walk_rate": 0.020833333333333332,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.22676298424861643,
+      "filters/wide-buyer/zero_advantage": 0.5983263598326359,
+      "metrics/wide-buyer/deal_rate": 0.30833333333333335,
+      "metrics/wide-buyer/timeout_rate": 0.575,
+      "metrics/wide-buyer/walk_rate": 0.11666666666666668,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 36,
+      "reward/all/mean": 0.21571144498275616,
+      "reward/wide-seller/mean": 0.2077820289341466,
+      "filters/wide-seller/zero_advantage": 0.6457564575645757,
+      "metrics/wide-seller/deal_rate": 0.2977941176470588,
+      "metrics/wide-seller/timeout_rate": 0.6470588235294118,
+      "metrics/wide-seller/walk_rate": 0.05514705882352941,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.2241364495344039,
+      "filters/wide-buyer/zero_advantage": 0.5311203319502075,
+      "metrics/wide-buyer/deal_rate": 0.3828125,
+      "metrics/wide-buyer/timeout_rate": 0.4375,
+      "metrics/wide-buyer/walk_rate": 0.1796875,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 37,
+      "reward/all/mean": 0.2469244459771372,
+      "reward/wide-seller/mean": 0.2323674183478105,
+      "filters/wide-seller/zero_advantage": 0.8241758241758241,
+      "metrics/wide-seller/deal_rate": 0.3333333333333333,
+      "metrics/wide-seller/timeout_rate": 0.5555555555555556,
+      "metrics/wide-seller/walk_rate": 0.1111111111111111,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.2643928791323293,
+      "filters/wide-buyer/zero_advantage": 0.5355648535564853,
+      "metrics/wide-buyer/deal_rate": 0.3858333333333333,
+      "metrics/wide-buyer/timeout_rate": 0.5333333333333333,
+      "metrics/wide-buyer/walk_rate": 0.08083333333333333,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 38,
+      "reward/all/mean": 0.27479687921248275,
+      "reward/wide-seller/mean": 0.286870819380952,
+      "filters/wide-seller/zero_advantage": 0.6981132075471698,
+      "metrics/wide-seller/deal_rate": 0.5,
+      "metrics/wide-seller/timeout_rate": 0.4,
+      "metrics/wide-seller/walk_rate": 0.1,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.2695473400088005,
+      "filters/wide-buyer/zero_advantage": 0.5920679886685553,
+      "metrics/wide-buyer/deal_rate": 0.3423913043478261,
+      "metrics/wide-buyer/timeout_rate": 0.5652173913043478,
+      "metrics/wide-buyer/walk_rate": 0.09239130434782608,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 39,
+      "reward/all/mean": 0.3423022109862522,
+      "reward/wide-seller/mean": 0.3995828988397655,
+      "filters/wide-seller/zero_advantage": 0.4024896265560166,
+      "metrics/wide-seller/deal_rate": 0.61328125,
+      "metrics/wide-seller/timeout_rate": 0.3828125,
+      "metrics/wide-seller/walk_rate": 0.00390625,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.288390975359416,
+      "filters/wide-buyer/zero_advantage": 0.5867158671586716,
+      "metrics/wide-buyer/deal_rate": 0.41544117647058826,
+      "metrics/wide-buyer/timeout_rate": 0.4742647058823529,
+      "metrics/wide-buyer/walk_rate": 0.11029411764705882,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 40,
+      "reward/all/mean": 0.270377544511617,
+      "reward/wide-seller/mean": 0.22473259058383727,
+      "filters/wide-seller/zero_advantage": 0.5983263598326359,
+      "metrics/wide-seller/deal_rate": 0.375,
+      "metrics/wide-seller/timeout_rate": 0.625,
+      "metrics/wide-seller/walk_rate": 0.0,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.3084150061181002,
+      "filters/wide-buyer/zero_advantage": 0.4725274725274725,
+      "metrics/wide-buyer/deal_rate": 0.4479166666666667,
+      "metrics/wide-buyer/timeout_rate": 0.4444444444444444,
+      "metrics/wide-buyer/walk_rate": 0.1076388888888889,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 41,
+      "reward/all/mean": 0.35264502707698087,
+      "reward/wide-seller/mean": 0.3949157245785617,
+      "filters/wide-seller/zero_advantage": 0.632768361581921,
+      "metrics/wide-seller/deal_rate": 0.5833333333333334,
+      "metrics/wide-seller/timeout_rate": 0.4166666666666667,
+      "metrics/wide-seller/walk_rate": 0.0,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.3284903427903632,
+      "filters/wide-buyer/zero_advantage": 0.4746268656716418,
+      "metrics/wide-buyer/deal_rate": 0.4553571428571429,
+      "metrics/wide-buyer/timeout_rate": 0.49702380952380953,
+      "metrics/wide-buyer/walk_rate": 0.047619047619047616,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 42,
+      "reward/all/mean": 0.22807178505383296,
+      "reward/wide-seller/mean": 0.33123288600958056,
+      "filters/wide-seller/zero_advantage": 0.5,
+      "metrics/wide-seller/deal_rate": 0.5028846153846154,
+      "metrics/wide-seller/timeout_rate": 0.3942307692307692,
+      "metrics/wide-seller/walk_rate": 0.10288461538461538,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.161017069432597,
+      "filters/wide-buyer/zero_advantage": 0.75,
+      "metrics/wide-buyer/deal_rate": 0.3,
+      "metrics/wide-buyer/timeout_rate": 0.7,
+      "metrics/wide-buyer/walk_rate": 0.0,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 43,
+      "reward/all/mean": 0.2789597608041122,
+      "reward/wide-seller/mean": 0.2344512519386976,
+      "filters/wide-seller/zero_advantage": 0.5739910313901345,
+      "metrics/wide-seller/deal_rate": 0.4419642857142857,
+      "metrics/wide-seller/timeout_rate": 0.42857142857142855,
+      "metrics/wide-seller/walk_rate": 0.12946428571428573,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.31175550417862824,
+      "filters/wide-buyer/zero_advantage": 0.4982698961937716,
+      "metrics/wide-buyer/deal_rate": 0.5328947368421053,
+      "metrics/wide-buyer/timeout_rate": 0.46710526315789475,
+      "metrics/wide-buyer/walk_rate": 0.0,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 44,
+      "reward/all/mean": 0.3193716280066993,
+      "reward/wide-seller/mean": 0.3080151467450534,
+      "filters/wide-seller/zero_advantage": 0.6124401913875598,
+      "metrics/wide-seller/deal_rate": 0.3928571428571429,
+      "metrics/wide-seller/timeout_rate": 0.4821428571428571,
+      "metrics/wide-seller/walk_rate": 0.125,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.3277395615679122,
+      "filters/wide-buyer/zero_advantage": 0.3696369636963696,
+      "metrics/wide-buyer/deal_rate": 0.5888157894736842,
+      "metrics/wide-buyer/timeout_rate": 0.41118421052631576,
+      "metrics/wide-buyer/walk_rate": 0.0,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 45,
+      "reward/all/mean": 0.24189330091108152,
+      "reward/wide-seller/mean": 0.2689375325591325,
+      "filters/wide-seller/zero_advantage": 0.5355648535564853,
+      "metrics/wide-seller/deal_rate": 0.4666666666666667,
+      "metrics/wide-seller/timeout_rate": 0.4666666666666667,
+      "metrics/wide-seller/walk_rate": 0.06666666666666667,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.21935644120437237,
+      "filters/wide-buyer/zero_advantage": 0.5274725274725275,
+      "metrics/wide-buyer/deal_rate": 0.4027777777777778,
+      "metrics/wide-buyer/timeout_rate": 0.59375,
+      "metrics/wide-buyer/walk_rate": 0.003472222222222222,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 46,
+      "reward/all/mean": 0.29787326395761743,
+      "reward/wide-seller/mean": 0.34920852394812607,
+      "filters/wide-seller/zero_advantage": 0.4311111111111111,
+      "metrics/wide-seller/deal_rate": 0.5125,
+      "metrics/wide-seller/timeout_rate": 0.4,
+      "metrics/wide-seller/walk_rate": 0.0875,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.2550938806321936,
+      "filters/wide-buyer/zero_advantage": 0.6689895470383276,
+      "metrics/wide-buyer/deal_rate": 0.4409722222222222,
+      "metrics/wide-buyer/timeout_rate": 0.5555555555555556,
+      "metrics/wide-buyer/walk_rate": 0.003472222222222222,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 47,
+      "reward/all/mean": 0.3830996485106392,
+      "reward/wide-seller/mean": 0.30857956497570543,
+      "filters/wide-seller/zero_advantage": 0.5882352941176471,
+      "metrics/wide-seller/deal_rate": 0.4722222222222222,
+      "metrics/wide-seller/timeout_rate": 0.5,
+      "metrics/wide-seller/walk_rate": 0.027777777777777776,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.47252374875255954,
+      "filters/wide-buyer/zero_advantage": 0.5333333333333333,
+      "metrics/wide-buyer/deal_rate": 0.6666666666666666,
+      "metrics/wide-buyer/timeout_rate": 0.3333333333333333,
+      "metrics/wide-buyer/walk_rate": 0.0,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 48,
+      "reward/all/mean": 0.21342245582847844,
+      "reward/wide-seller/mean": 0.22051019587851536,
+      "filters/wide-seller/zero_advantage": 0.735973597359736,
+      "metrics/wide-seller/deal_rate": 0.3125,
+      "metrics/wide-seller/timeout_rate": 0.631578947368421,
+      "metrics/wide-seller/walk_rate": 0.05592105263157895,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.20380338004628543,
+      "filters/wide-buyer/zero_advantage": 0.6124401913875598,
+      "metrics/wide-buyer/deal_rate": 0.42857142857142855,
+      "metrics/wide-buyer/timeout_rate": 0.5,
+      "metrics/wide-buyer/walk_rate": 0.07142857142857142,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 49,
+      "reward/all/mean": 0.27859008230293325,
+      "reward/wide-seller/mean": 0.3152102020806113,
+      "filters/wide-seller/zero_advantage": 0.875,
+      "metrics/wide-seller/deal_rate": 0.4375,
+      "metrics/wide-seller/timeout_rate": 0.5625,
+      "metrics/wide-seller/walk_rate": 0.0,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.24412408721805984,
+      "filters/wide-buyer/zero_advantage": 0.62890625,
+      "metrics/wide-buyer/deal_rate": 0.4117647058823529,
+      "metrics/wide-buyer/timeout_rate": 0.5882352941176471,
+      "metrics/wide-buyer/walk_rate": 0.0,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 50,
+      "reward/all/mean": 0.3927606386961911,
+      "reward/wide-seller/mean": 0.32818595215629237,
+      "filters/wide-seller/zero_advantage": 0.6428571428571429,
+      "metrics/wide-seller/deal_rate": 0.4241071428571429,
+      "metrics/wide-seller/timeout_rate": 0.5714285714285714,
+      "metrics/wide-seller/walk_rate": 0.004464285714285714,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.44034198667295854,
+      "filters/wide-buyer/zero_advantage": 0.6076388888888888,
+      "metrics/wide-buyer/deal_rate": 0.5789473684210527,
+      "metrics/wide-buyer/timeout_rate": 0.42105263157894735,
+      "metrics/wide-buyer/walk_rate": 0.0,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    },
+    {
+      "step": 51,
+      "reward/all/mean": 0.313068167211191,
+      "reward/wide-seller/mean": 0.21288614329111777,
+      "filters/wide-seller/zero_advantage": 0.69377990430622,
+      "metrics/wide-seller/deal_rate": 0.36607142857142855,
+      "metrics/wide-seller/timeout_rate": 0.5714285714285714,
+      "metrics/wide-seller/walk_rate": 0.0625,
+      "metrics/wide-seller/forfeit_rate": 0.0,
+      "reward/wide-buyer/mean": 0.38688650062598184,
+      "filters/wide-buyer/zero_advantage": 0.6336633663366337,
+      "metrics/wide-buyer/deal_rate": 0.5754385964912281,
+      "metrics/wide-buyer/timeout_rate": 0.3684210526315789,
+      "metrics/wide-buyer/walk_rate": 0.056140350877192984,
+      "metrics/wide-buyer/forfeit_rate": 0.0
+    }
+  ],
+  "archived": [
+    {
+      "step": 1,
+      "n": 64,
+      "outcomes": {
+        "deal": 24,
+        "forfeit": 25,
+        "walk": 14,
+        "timeout": 1
+      },
+      "excluded_openings": {
+        "seller": 21,
+        "buyer": 16
+      },
+      "unique_setups": 28
+    },
+    {
+      "step": 5,
+      "n": 64,
+      "outcomes": {
+        "timeout": 5,
+        "deal": 52,
+        "walk": 7
+      },
+      "excluded_openings": {},
+      "unique_setups": 27
+    },
+    {
+      "step": 25,
+      "n": 64,
+      "outcomes": {
+        "walk": 14,
+        "deal": 20,
+        "timeout": 30
+      },
+      "excluded_openings": {},
+      "unique_setups": 29
+    },
+    {
+      "step": 50,
+      "n": 64,
+      "outcomes": {
+        "timeout": 35,
+        "deal": 29
+      },
+      "excluded_openings": {},
+      "unique_setups": 28
+    }
+  ],
+  "openings": [
+    {
+      "step": 1,
+      "role": "buyer",
+      "own": 95,
+      "price": 45
+    },
+    {
+      "step": 1,
+      "role": "seller",
+      "own": 59,
+      "price": 140
+    },
+    {
+      "step": 1,
+      "role": "seller",
+      "own": 50,
+      "price": 100
+    },
+    {
+      "step": 1,
+      "role": "seller",
+      "own": 54,
+      "price": 75
+    },
+    {
+      "step": 1,
+      "role": "buyer",
+      "own": 94,
+      "price": 77
+    },
+    {
+      "step": 1,
+      "role": "buyer",
+      "own": 97,
+      "price": 52
+    },
+    {
+      "step": 1,
+      "role": "seller",
+      "own": 54,
+      "price": 100
+    },
+    {
+      "step": 1,
+      "role": "seller",
+      "own": 56,
+      "price": 100
+    },
+    {
+      "step": 1,
+      "role": "seller",
+      "own": 51,
+      "price": 102
+    },
+    {
+      "step": 1,
+      "role": "seller",
+      "own": 50,
+      "price": 100
+    },
+    {
+      "step": 1,
+      "role": "buyer",
+      "own": 93,
+      "price": 50
+    },
+    {
+      "step": 1,
+      "role": "buyer",
+      "own": 91,
+      "price": 100
+    },
+    {
+      "step": 1,
+      "role": "buyer",
+      "own": 110,
+      "price": 55
+    },
+    {
+      "step": 1,
+      "role": "seller",
+      "own": 52,
+      "price": 100
+    },
+    {
+      "step": 1,
+      "role": "seller",
+      "own": 59,
+      "price": 95
+    },
+    {
+      "step": 1,
+      "role": "seller",
+      "own": 40,
+      "price": 100
+    },
+    {
+      "step": 1,
+      "role": "buyer",
+      "own": 98,
+      "price": 120
+    },
+    {
+      "step": 1,
+      "role": "buyer",
+      "own": 110,
+      "price": 70
+    },
+    {
+      "step": 1,
+      "role": "seller",
+      "own": 51,
+      "price": 8
+    },
+    {
+      "step": 1,
+      "role": "buyer",
+      "own": 96,
+      "price": 72
+    },
+    {
+      "step": 1,
+      "role": "buyer",
+      "own": 109,
+      "price": 0
+    },
+    {
+      "step": 1,
+      "role": "seller",
+      "own": 41,
+      "price": 100
+    },
+    {
+      "step": 1,
+      "role": "buyer",
+      "own": 95,
+      "price": 50
+    },
+    {
+      "step": 1,
+      "role": "buyer",
+      "own": 90,
+      "price": 49
+    },
+    {
+      "step": 1,
+      "role": "buyer",
+      "own": 95,
+      "price": 55
+    },
+    {
+      "step": 1,
+      "role": "seller",
+      "own": 54,
+      "price": 75
+    },
+    {
+      "step": 1,
+      "role": "seller",
+      "own": 58,
+      "price": 77
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 58,
+      "price": 100
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 103,
+      "price": 75
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 92,
+      "price": 60
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 43,
+      "price": 100
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 92,
+      "price": 60
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 108,
+      "price": 60
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 48,
+      "price": 100
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 58,
+      "price": 100
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 49,
+      "price": 80
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 58,
+      "price": 108
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 98,
+      "price": 80
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 95,
+      "price": 30
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 54,
+      "price": 80
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 54,
+      "price": 100
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 58,
+      "price": 100
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 98,
+      "price": 50
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 103,
+      "price": 60
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 43,
+      "price": 90
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 103,
+      "price": 80
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 95,
+      "price": 95
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 58,
+      "price": 100
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 52,
+      "price": 80
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 100,
+      "price": 90
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 98,
+      "price": 50
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 103,
+      "price": 50
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 93,
+      "price": 10
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 43,
+      "price": 100
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 93,
+      "price": 50
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 60,
+      "price": 90
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 95,
+      "price": 90
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 43,
+      "price": 80
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 98,
+      "price": 60
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 92,
+      "price": 80
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 98,
+      "price": 75
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 98,
+      "price": 70
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 98,
+      "price": 80
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 49,
+      "price": 100
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 99,
+      "price": 55
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 103,
+      "price": 60
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 99,
+      "price": 60
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 100,
+      "price": 100
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 99,
+      "price": 60
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 95,
+      "price": 65
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 100,
+      "price": 90
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 92,
+      "price": 45
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 52,
+      "price": 105
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 98,
+      "price": 150
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 98,
+      "price": 92
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 54,
+      "price": 140
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 49,
+      "price": 100
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 92,
+      "price": 50
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 100,
+      "price": 85
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 98,
+      "price": 45
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 99,
+      "price": 85
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 100,
+      "price": 50
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 48,
+      "price": 100
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 100,
+      "price": 85
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 105,
+      "price": 60
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 103,
+      "price": 90
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 103,
+      "price": 5
+    },
+    {
+      "step": 5,
+      "role": "seller",
+      "own": 49,
+      "price": 100
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 103,
+      "price": 73
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 93,
+      "price": 50
+    },
+    {
+      "step": 5,
+      "role": "buyer",
+      "own": 103,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 101,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 109,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 108,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 97,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 109,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 103,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 53,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 60,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 94,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 102,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 98,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 48,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 109,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 102,
+      "price": 55
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 103,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 97,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 95,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 46,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 98,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 103,
+      "price": 55
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 97,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 45,
+      "price": 90
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 56,
+      "price": 90
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 105,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 106,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 42,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 109,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 44,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 47,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 45,
+      "price": 90
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 96,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 109,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 56,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 103,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 49,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 94,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 45,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 53,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 53,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 48,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 97,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 44,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 49,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 44,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 102,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 103,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 53,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 101,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 109,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 103,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 96,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 53,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 44,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 105,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 106,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 109,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 96,
+      "price": 50
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 60,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 60,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 53,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 56,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 55,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "seller",
+      "own": 46,
+      "price": 95
+    },
+    {
+      "step": 25,
+      "role": "buyer",
+      "own": 95,
+      "price": 50
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 90,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 95,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 101,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 103,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 101,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 95,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 92,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 41,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 107,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 51,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 95,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 104,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 51,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 90,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 101,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 41,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 95,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 55,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 101,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 41,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 101,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 41,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 108,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 42,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 46,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 46,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 55,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 101,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 46,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 103,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 108,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 90,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 103,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 55,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 101,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 42,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 103,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 55,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 107,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 42,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 104,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 55,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 95,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 44,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 103,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 50,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 101,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 40,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 46,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 41,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 95,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 103,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 44,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 45,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 55,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 95,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 50,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 44,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 55,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 45,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 95,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "buyer",
+      "own": 95,
+      "price": 55
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 55,
+      "price": 95
+    },
+    {
+      "step": 50,
+      "role": "seller",
+      "own": 55,
+      "price": 95
+    }
+  ],
+  "endings": [
+    {
+      "family": "random_threshold",
+      "role": "buyer",
+      "outcome": "timeout",
+      "actor": "opponent",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "boulware",
+      "role": "buyer",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.6666666666666666,
+      "price": 55
+    },
+    {
+      "family": "random_threshold",
+      "role": "buyer",
+      "outcome": "timeout",
+      "actor": "opponent",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "boulware",
+      "role": "buyer",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.6226415094339622,
+      "price": 60
+    },
+    {
+      "family": "random_threshold",
+      "role": "buyer",
+      "outcome": "timeout",
+      "actor": "opponent",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "boulware",
+      "role": "buyer",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.9047619047619048,
+      "price": 55
+    },
+    {
+      "family": "boulware",
+      "role": "buyer",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 1.0,
+      "price": 60
+    },
+    {
+      "family": "boulware",
+      "role": "seller",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "boulware",
+      "role": "buyer",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.6491228070175439,
+      "price": 60
+    },
+    {
+      "family": "boulware",
+      "role": "seller",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "boulware",
+      "role": "buyer",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.9047619047619048,
+      "price": 55
+    },
+    {
+      "family": "boulware",
+      "role": "buyer",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "boulware",
+      "role": "seller",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "boulware",
+      "role": "buyer",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.875,
+      "price": 60
+    },
+    {
+      "family": "random_threshold",
+      "role": "buyer",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.6428571428571429,
+      "price": 55
+    },
+    {
+      "family": "boulware",
+      "role": "seller",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.6119402985074627,
+      "price": 95
+    },
+    {
+      "family": "boulware",
+      "role": "buyer",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.9047619047619048,
+      "price": 55
+    },
+    {
+      "family": "random_threshold",
+      "role": "seller",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "boulware",
+      "role": "buyer",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.5081967213114754,
+      "price": 55
+    },
+    {
+      "family": "boulware",
+      "role": "seller",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "boulware",
+      "role": "buyer",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.5081967213114754,
+      "price": 55
+    },
+    {
+      "family": "boulware",
+      "role": "seller",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "boulware",
+      "role": "buyer",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.92,
+      "price": 60
+    },
+    {
+      "family": "conceder",
+      "role": "seller",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.9607843137254902,
+      "price": 92
+    },
+    {
+      "family": "random_threshold",
+      "role": "seller",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "random_threshold",
+      "role": "seller",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "random_threshold",
+      "role": "seller",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "boulware",
+      "role": "buyer",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.5081967213114754,
+      "price": 55
+    },
+    {
+      "family": "random_threshold",
+      "role": "seller",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "conceder",
+      "role": "buyer",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "boulware",
+      "role": "buyer",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.92,
+      "price": 60
+    },
+    {
+      "family": "conceder",
+      "role": "buyer",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "conceder",
+      "role": "buyer",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "boulware",
+      "role": "seller",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.9444444444444444,
+      "price": 90
+    },
+    {
+      "family": "random_threshold",
+      "role": "buyer",
+      "outcome": "timeout",
+      "actor": "opponent",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "conceder",
+      "role": "seller",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.9607843137254902,
+      "price": 92
+    },
+    {
+      "family": "random_threshold",
+      "role": "buyer",
+      "outcome": "timeout",
+      "actor": "opponent",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "boulware",
+      "role": "seller",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.9444444444444444,
+      "price": 90
+    },
+    {
+      "family": "boulware",
+      "role": "buyer",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.6491228070175439,
+      "price": 60
+    },
+    {
+      "family": "conceder",
+      "role": "seller",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.9607843137254902,
+      "price": 92
+    },
+    {
+      "family": "boulware",
+      "role": "buyer",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "random_threshold",
+      "role": "seller",
+      "outcome": "timeout",
+      "actor": "opponent",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "boulware",
+      "role": "buyer",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.6666666666666666,
+      "price": 55
+    },
+    {
+      "family": "conceder",
+      "role": "seller",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.7454545454545455,
+      "price": 92
+    },
+    {
+      "family": "conceder",
+      "role": "buyer",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "boulware",
+      "role": "seller",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "random_threshold",
+      "role": "buyer",
+      "outcome": "timeout",
+      "actor": "opponent",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "random_threshold",
+      "role": "seller",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "random_threshold",
+      "role": "seller",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "boulware",
+      "role": "seller",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.6119402985074627,
+      "price": 95
+    },
+    {
+      "family": "boulware",
+      "role": "buyer",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.9047619047619048,
+      "price": 55
+    },
+    {
+      "family": "boulware",
+      "role": "buyer",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.6226415094339622,
+      "price": 60
+    },
+    {
+      "family": "conceder",
+      "role": "seller",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.7454545454545455,
+      "price": 92
+    },
+    {
+      "family": "random_threshold",
+      "role": "seller",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "random_threshold",
+      "role": "seller",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "random_threshold",
+      "role": "buyer",
+      "outcome": "timeout",
+      "actor": "opponent",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "boulware",
+      "role": "seller",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "conceder",
+      "role": "seller",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.8545454545454545,
+      "price": 95
+    },
+    {
+      "family": "random_threshold",
+      "role": "seller",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "random_threshold",
+      "role": "seller",
+      "outcome": "timeout",
+      "actor": "learner",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "random_threshold",
+      "role": "buyer",
+      "outcome": "timeout",
+      "actor": "opponent",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "random_threshold",
+      "role": "buyer",
+      "outcome": "timeout",
+      "actor": "opponent",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "random_threshold",
+      "role": "seller",
+      "outcome": "timeout",
+      "actor": "opponent",
+      "reward": 0.0,
+      "price": null
+    },
+    {
+      "family": "boulware",
+      "role": "seller",
+      "outcome": "deal",
+      "actor": "opponent",
+      "reward": 0.9444444444444444,
+      "price": 90
+    }
+  ],
+  "bounds": {
+    "episodes": "blind_search.make_episodes(8000, seat, 100+i, None, WIDE_DRAW_KWARGS)",
+    "n_candidates": 2616,
+    "open_loop_winner": {
+      "family": {
+        "boulware": {
+          "buyer": {
+            "mean": 0.3664500799857331,
+            "n": 2660,
+            "se": 0.006678965484724124
+          },
+          "seller": {
+            "mean": 0.3718449021354874,
+            "n": 2638,
+            "se": 0.006607405826432649
+          }
+        },
+        "conceder": {
+          "buyer": {
+            "mean": 0.5478515484962437,
+            "n": 2652,
+            "se": 0.004254648202681589
+          },
+          "seller": {
+            "mean": 0.5453504451230176,
+            "n": 2699,
+            "se": 0.0041808067500226365
+          }
+        },
+        "random_threshold": {
+          "buyer": {
+            "mean": 0.13883668499269222,
+            "n": 2688,
+            "se": 0.004601727265902938
+          },
+          "seller": {
+            "mean": 0.13095366953941817,
+            "n": 2663,
+            "se": 0.004540666148692695
+          }
+        }
+      },
+      "pooled": 0.35015061586489726,
+      "pooled_se": 0.0025229344112908704,
+      "seat": {
+        "buyer": {
+          "mean": 0.3501065660793056,
+          "n": 8000,
+          "se": 0.0035799324631517614
+        },
+        "seller": {
+          "mean": 0.35019466565048885,
+          "n": 8000,
+          "se": 0.00355596340447629
+        }
+      }
+    },
+    "previous_winner": {
+      "family": {
+        "boulware": {
+          "buyer": {
+            "mean": 0.3661162799039209,
+            "n": 2660,
+            "se": 0.006687146561126697
+          },
+          "seller": {
+            "mean": 0.3716153687639679,
+            "n": 2638,
+            "se": 0.0066130944663628285
+          }
+        },
+        "conceder": {
+          "buyer": {
+            "mean": 0.5626604426740947,
+            "n": 2652,
+            "se": 0.004168363578453382
+          },
+          "seller": {
+            "mean": 0.5598891752063271,
+            "n": 2699,
+            "se": 0.0041122143498292275
+          }
+        },
+        "random_threshold": {
+          "buyer": {
+            "mean": 0.12284479102819701,
+            "n": 2688,
+            "se": 0.004375751289378653
+          },
+          "seller": {
+            "mean": 0.11313674217002735,
+            "n": 2663,
+            "se": 0.004285309161858343
+          }
+        }
+      },
+      "label": "concede(e=0.02,anchor_off=-20,margin=0,floor=1.0)",
+      "pooled": 0.34931231049249556,
+      "pooled_se": 0.002549007071483429,
+      "seat": {
+        "buyer": {
+          "mean": 0.3495314495999903,
+          "n": 8000,
+          "se": 0.00361456498548694
+        },
+        "seller": {
+          "mean": 0.34909317138500084,
+          "n": 8000,
+          "se": 0.0035950894519583103
+        }
+      }
+    },
+    "upper_full_information": {
+      "family": {
+        "boulware": {
+          "buyer": {
+            "mean": 0.5895263732799152,
+            "n": 2660,
+            "se": 0.009532241493255399
+          },
+          "seller": {
+            "mean": 0.6070015139271389,
+            "n": 2638,
+            "se": 0.009502765845074035
+          }
+        },
+        "conceder": {
+          "buyer": {
+            "mean": 0.8276226991297562,
+            "n": 2652,
+            "se": 0.004886259975753158
+          },
+          "seller": {
+            "mean": 0.8231438378849475,
+            "n": 2699,
+            "se": 0.0048206659127146305
+          }
+        },
+        "random_threshold": {
+          "buyer": {
+            "mean": 0.21146865627282202,
+            "n": 2688,
+            "se": 0.006032929076581591
+          },
+          "seller": {
+            "mean": 0.20198725073065146,
+            "n": 2663,
+            "se": 0.005951861749949319
+          }
+        }
+      },
+      "pooled": 0.5432656599978138,
+      "pooled_se": 0.0035192666855622255,
+      "seat": {
+        "buyer": {
+          "mean": 0.5414279123847541,
+          "n": 8000,
+          "se": 0.0049837678413436
+        },
+        "seller": {
+          "mean": 0.5451034076108737,
+          "n": 8000,
+          "se": 0.004970212281182956
+        }
+      }
+    },
+    "winner": "concede(e=0.02,anchor_off=-20,margin=-5,floor=1.25)",
+    "winner_minus_previous": {
+      "family": {
+        "boulware": {
+          "buyer": {
+            "mean": 0.00033380008181217036,
+            "n": 2660,
+            "se": 0.00013169612204434769
+          },
+          "seller": {
+            "mean": 0.00022953337151951513,
+            "n": 2638,
+            "se": 0.00010233961941567259
+          }
+        },
+        "conceder": {
+          "buyer": {
+            "mean": -0.014808894177850895,
+            "n": 2652,
+            "se": 0.0009120075525162433
+          },
+          "seller": {
+            "mean": -0.01453873008330953,
+            "n": 2699,
+            "se": 0.0008949475310152978
+          }
+        },
+        "random_threshold": {
+          "buyer": {
+            "mean": 0.015991893964495213,
+            "n": 2688,
+            "se": 0.001890537148124637
+          },
+          "seller": {
+            "mean": 0.01781692736939081,
+            "n": 2663,
+            "se": 0.00197333914464015
+          }
+        }
+      },
+      "pooled": 0.0008383053724016698,
+      "pooled_se": 0.0005152984285955812,
+      "seat": {
+        "buyer": {
+          "mean": 0.0005751164793153666,
+          "n": 8000,
+          "se": 0.0007186774698250473
+        },
+        "seller": {
+          "mean": 0.0011014942654879731,
+          "n": 8000,
+          "se": 0.0007386694635749941
+        }
+      }
+    }
+  },
+  "frontier": {
+    "lower": {
+      "buyer": {
+        "midpoint_reward": {
+          "blind_mean": 0.3456538041179003,
+          "blind_wins": 33,
+          "ci95": [
+            -0.31633022989714793,
+            -0.16540518123731085
+          ],
+          "model_mean": 0.10644159722958864,
+          "model_wins": 2,
+          "paired_mean_model_minus_blind": -0.23921220688831168,
+          "ties": 29
+        },
+        "n": 64,
+        "surplus_share": {
+          "blind_mean": 0.4775144020589502,
+          "blind_wins": 33,
+          "ci95": [
+            -0.22147397207812433,
+            -0.08333468678117101
+          ],
+          "model_mean": 0.32665829861479434,
+          "model_wins": 2,
+          "paired_mean_model_minus_blind": -0.15085610344415584,
+          "ties": 29
+        }
+      },
+      "seller": {
+        "midpoint_reward": {
+          "blind_mean": 0.3148714710874587,
+          "blind_wins": 17,
+          "ci95": [
+            -0.18726217879251597,
+            -0.06911322554348534
+          ],
+          "model_mean": 0.18992276959393053,
+          "model_wins": 3,
+          "paired_mean_model_minus_blind": -0.12494870149352819,
+          "ties": 44
+        },
+        "n": 64,
+        "surplus_share": {
+          "blind_mean": 0.42306073554372936,
+          "blind_wins": 17,
+          "ci95": [
+            -0.2101236050622032,
+            -0.06208734318595744
+          ],
+          "model_mean": 0.29027388479696525,
+          "model_wins": 3,
+          "paired_mean_model_minus_blind": -0.13278685074676408,
+          "ties": 44
+        }
+      }
+    },
+    "upper": {
+      "buyer": {
+        "midpoint_reward": {
+          "blind_mean": 0.5280742858011688,
+          "blind_wins": 38,
+          "ci95": [
+            -0.5276639197356364,
+            -0.31461179470742345
+          ],
+          "model_mean": 0.10644159722958864,
+          "model_wins": 0,
+          "paired_mean_model_minus_blind": -0.42163268857158015,
+          "ties": 26
+        },
+        "n": 64,
+        "surplus_share": {
+          "blind_mean": 0.5843496429005843,
+          "blind_wins": 38,
+          "ci95": [
+            -0.33655142967238605,
+            -0.18487500538968515
+          ],
+          "model_mean": 0.32665829861479434,
+          "model_wins": 0,
+          "paired_mean_model_minus_blind": -0.25769134428579005,
+          "ties": 26
+        }
+      },
+      "seller": {
+        "midpoint_reward": {
+          "blind_mean": 0.4811220018160778,
+          "blind_wins": 29,
+          "ci95": [
+            -0.3871868846478849,
+            -0.1988767860925672
+          ],
+          "model_mean": 0.18992276959393053,
+          "model_wins": 0,
+          "paired_mean_model_minus_blind": -0.2911992322221473,
+          "ties": 35
+        },
+        "n": 64,
+        "surplus_share": {
+          "blind_mean": 0.5296235009080389,
+          "blind_wins": 29,
+          "ci95": [
+            -0.32891344305971026,
+            -0.1559071532299569
+          ],
+          "model_mean": 0.29027388479696525,
+          "model_wins": 0,
+          "paired_mean_model_minus_blind": -0.23934961611107364,
+          "ties": 35
+        }
+      }
+    }
+  }
+}

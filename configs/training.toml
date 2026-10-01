@@ -1,0 +1,43 @@
+model = "Qwen/Qwen3.5-4B"
+loss = "rl"
+max_steps = 52
+batch_size = 512
+rollouts_per_example = 16
+[sampling]
+max_tokens = 768
+enable_thinking = false
+[[env]]
+id = "rlvr_bargain"
+name = "wide-seller"
+args = { n = 1536, seed = 0, opponent = "mix", seat = "seller", c_lo = 40, c_hi = 60, v_lo = 90, v_hi = 110, t_lo = 2, t_hi = 6 }
+[[env]]
+id = "rlvr_bargain"
+name = "wide-buyer"
+args = { n = 1536, seed = 1, opponent = "mix", seat = "buyer", c_lo = 40, c_hi = 60, v_lo = 90, v_hi = 110, t_lo = 2, t_hi = 6 }
+[eval]
+interval = 25
+num_examples = 63
+rollouts_per_example = 1
+[eval.sampling]
+max_tokens = 768
+enable_thinking = false
+temperature = 1.0
+[[eval.env]]
+id = "rlvr_bargain"
+name = "mix-seller-eval"
+args = { n = 63, seed = 999, opponent = "mix", seat = "seller" }
+[[eval.env]]
+id = "rlvr_bargain"
+name = "mix-buyer-eval"
+args = { n = 63, seed = 999, opponent = "mix", seat = "buyer" }
+[[eval.env]]
+id = "rlvr_bargain"
+name = "open-seller-eval"
+args = { n = 63, seed = 999, task = "opening", seat = "seller" }
+[[eval.env]]
+id = "rlvr_bargain"
+name = "open-buyer-eval"
+args = { n = 63, seed = 999, task = "opening", seat = "buyer" }
+[checkpoints]
+interval = 10
+keep_cloud = 5

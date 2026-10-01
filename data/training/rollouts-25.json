@@ -1,0 +1,644 @@
+{
+  "samples": [
+    {
+      "step": 25,
+      "problem_id": 700,
+      "sample_id": 0,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 101 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 4 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(76)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(55)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 1.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 1.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 334,
+      "sample_id": 1,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 109 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.8153846153846154,
+      "advantage": -1.1920928955078125e-07,
+      "metrics": "{\"bargaining_reward\": 0.8153846153846154, \"deal_rate\": 1.0, \"positive_deal_rate\": 1.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 914,
+      "sample_id": 2,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 108 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 4 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(114)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(55)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": -0.44117647409439087,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 1.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 1.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 192,
+      "sample_id": 3,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 97 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 3 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(91)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(55)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1122,
+      "sample_id": 4,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 109 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 3 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(102)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(55)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 645,
+      "sample_id": 5,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 103 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 1.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 1.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1332,
+      "sample_id": 6,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 53 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.9534883720930233,
+      "advantage": 0.01453489065170288,
+      "metrics": "{\"bargaining_reward\": 0.9534883720930233, \"deal_rate\": 1.0, \"positive_deal_rate\": 1.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 463,
+      "sample_id": 7,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 60 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 542,
+      "sample_id": 8,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 94 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 3 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(55)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 593,
+      "sample_id": 9,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 102 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 1.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 1.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1454,
+      "sample_id": 10,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 98 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 6 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(70)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(55)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 5. Opponent: #### OFFER(59)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(52)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": -0.05416666716337204,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 1.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 1.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 3.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 381,
+      "sample_id": 11,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 48 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1122,
+      "sample_id": 12,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 109 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 3 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(102)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(55)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 561,
+      "sample_id": 13,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 102 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(55)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 645,
+      "sample_id": 14,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 103 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 1.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 1.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 192,
+      "sample_id": 15,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 97 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 3 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(91)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(55)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 924,
+      "sample_id": 16,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 95 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 3 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(124)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(60)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1472,
+      "sample_id": 17,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 46 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1454,
+      "sample_id": 18,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 98 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 6 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(70)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(55)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 5. Opponent: #### OFFER(59)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(52)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": -0.05416666716337204,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 1.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 1.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 3.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 645,
+      "sample_id": 19,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 103 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(55)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 1.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 1.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 192,
+      "sample_id": 20,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 97 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 3 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(91)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(55)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1055,
+      "sample_id": 21,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 45 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 6 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(90)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(65)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(85)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 5. Opponent: #### OFFER(84)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(88)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.6862745098039216,
+      "advantage": -0.04411756992340088,
+      "metrics": "{\"bargaining_reward\": 0.6862745098039216, \"deal_rate\": 1.0, \"positive_deal_rate\": 1.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 3.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 519,
+      "sample_id": 22,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 56 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 3 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(90)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(74)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(85)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1313,
+      "sample_id": 23,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 105 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 3 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(62)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(55)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 114,
+      "sample_id": 24,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 106 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 6 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(120)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(55)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 5. Opponent: #### OFFER(109)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(55)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.9615384615384616,
+      "advantage": 0.39663463830947876,
+      "metrics": "{\"bargaining_reward\": 0.9615384615384616, \"deal_rate\": 1.0, \"positive_deal_rate\": 1.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 3.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 749,
+      "sample_id": 25,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 42 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 3 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(46)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(90)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 334,
+      "sample_id": 26,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 109 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.8153846153846154,
+      "advantage": -1.1920928955078125e-07,
+      "metrics": "{\"bargaining_reward\": 0.8153846153846154, \"deal_rate\": 1.0, \"positive_deal_rate\": 1.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1376,
+      "sample_id": 27,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 44 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1398,
+      "sample_id": 28,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 47 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 4 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(44)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(92)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.7307692307692307,
+      "advantage": -0.0961538553237915,
+      "metrics": "{\"bargaining_reward\": 0.7307692307692307, \"deal_rate\": 1.0, \"positive_deal_rate\": 1.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1055,
+      "sample_id": 29,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 45 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 6 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(90)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(65)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(85)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 5. Opponent: #### OFFER(84)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(88)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.6862745098039216,
+      "advantage": -0.04411756992340088,
+      "metrics": "{\"bargaining_reward\": 0.6862745098039216, \"deal_rate\": 1.0, \"positive_deal_rate\": 1.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 3.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 988,
+      "sample_id": 30,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 96 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 1.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 1.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 334,
+      "sample_id": 31,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 109 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.8153846153846154,
+      "advantage": -1.1920928955078125e-07,
+      "metrics": "{\"bargaining_reward\": 0.8153846153846154, \"deal_rate\": 1.0, \"positive_deal_rate\": 1.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 519,
+      "sample_id": 32,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 56 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 3 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(74)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(85)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1487,
+      "sample_id": 33,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 103 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 4 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(105)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(55)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 242,
+      "sample_id": 34,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 49 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.559322033898305,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.559322033898305, \"deal_rate\": 1.0, \"positive_deal_rate\": 1.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 542,
+      "sample_id": 35,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 94 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 3 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(55)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(52)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1055,
+      "sample_id": 36,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 45 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 6 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(65)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(85)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 5. Opponent: #### OFFER(84)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(90)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.7647058823529411,
+      "advantage": 0.03431379795074463,
+      "metrics": "{\"bargaining_reward\": 0.7647058823529411, \"deal_rate\": 1.0, \"positive_deal_rate\": 1.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 3.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1120,
+      "sample_id": 37,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 53 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 5 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.5,
+      "advantage": 0.011160731315612793,
+      "metrics": "{\"bargaining_reward\": 0.5, \"deal_rate\": 1.0, \"positive_deal_rate\": 1.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1120,
+      "sample_id": 38,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 53 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 5 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.5,
+      "advantage": 0.011160731315612793,
+      "metrics": "{\"bargaining_reward\": 0.5, \"deal_rate\": 1.0, \"positive_deal_rate\": 1.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 381,
+      "sample_id": 39,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 48 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 192,
+      "sample_id": 40,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 97 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 3 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(91)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(60)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1376,
+      "sample_id": 41,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 44 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 242,
+      "sample_id": 42,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 49 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.559322033898305,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.559322033898305, \"deal_rate\": 1.0, \"positive_deal_rate\": 1.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1376,
+      "sample_id": 43,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 44 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 593,
+      "sample_id": 44,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 102 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 1.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 1.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1487,
+      "sample_id": 45,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 103 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 4 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(105)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(55)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1332,
+      "sample_id": 46,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 53 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.9534883720930233,
+      "advantage": 0.01453489065170288,
+      "metrics": "{\"bargaining_reward\": 0.9534883720930233, \"deal_rate\": 1.0, \"positive_deal_rate\": 1.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1160,
+      "sample_id": 47,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 101 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 1.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 1.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 334,
+      "sample_id": 48,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 109 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.8153846153846154,
+      "advantage": -1.1920928955078125e-07,
+      "metrics": "{\"bargaining_reward\": 0.8153846153846154, \"deal_rate\": 1.0, \"positive_deal_rate\": 1.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 645,
+      "sample_id": 49,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 103 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 1.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 1.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 988,
+      "sample_id": 50,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 96 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 1.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 1.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1120,
+      "sample_id": 51,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 53 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 5 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.5,
+      "advantage": 0.011160731315612793,
+      "metrics": "{\"bargaining_reward\": 0.5, \"deal_rate\": 1.0, \"positive_deal_rate\": 1.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1376,
+      "sample_id": 52,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 44 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 708,
+      "sample_id": 53,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 105 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 4 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(78)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(55)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.7543859649122807,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.7543859649122807, \"deal_rate\": 1.0, \"positive_deal_rate\": 1.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 114,
+      "sample_id": 54,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 106 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 6 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(120)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(55)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 5. Opponent: #### OFFER(109)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(60)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.7692307692307693,
+      "advantage": 0.20432698726654053,
+      "metrics": "{\"bargaining_reward\": 0.7692307692307693, \"deal_rate\": 1.0, \"positive_deal_rate\": 1.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 3.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1122,
+      "sample_id": 55,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 109 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 3 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(102)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(60)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 988,
+      "sample_id": 56,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 96 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 1.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 1.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 463,
+      "sample_id": 57,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 60 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 463,
+      "sample_id": 58,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 60 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1332,
+      "sample_id": 59,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 53 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.9534883720930233,
+      "advantage": 0.01453489065170288,
+      "metrics": "{\"bargaining_reward\": 0.9534883720930233, \"deal_rate\": 1.0, \"positive_deal_rate\": 1.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 519,
+      "sample_id": 60,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 56 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 3 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(74)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(90)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1012,
+      "sample_id": 61,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 55 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 6 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.48148148148148145,
+      "advantage": 0.05787035822868347,
+      "metrics": "{\"bargaining_reward\": 0.48148148148148145, \"deal_rate\": 1.0, \"positive_deal_rate\": 1.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 0.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 1472,
+      "sample_id": 62,
+      "env_name": "wide-seller",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: SELLER. Your cost c = 46 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 2 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is above the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(95)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 1.0}"
+    },
+    {
+      "step": 25,
+      "problem_id": 924,
+      "sample_id": 63,
+      "env_name": "wide-buyer",
+      "completion": "[{\"role\": \"system\", \"content\": \"ROLE: BUYER. Your value v = 95 (private).\\nPRIORS (public): c ~ U[40,60], v ~ U[90,110], rho = 0. P(no-ZOPA) = 0.00.\\nHORIZON: revealed, T = 3 rounds. Current round in each message.\\nRULES: alternate turns, integer prices 0-150. ACCEPT binds at opponent's last offer. WALK ends at (0,0). Invalid output: 1 retry, then forfeit.\\nSCORING (public): a deal at price p scores (2p - v - c)/(v - c), clamped to [-1, 1], for the seller and the negative for the buyer. Your score is positive only if p is below the midpoint of c and v. If v <= c (no ZOPA), a deal scores +1/-1 by the same midpoint rule (0 exactly at it). WALK, deadline, and breakdown score 0 for both. Forfeiting by invalid output scores you -1, the opponent +1. A deal can score worse than walking away.\\nYour reply MUST end with one line that is exactly \\\"#### OFFER(N)\\\" (N replaced by your integer price), \\\"#### ACCEPT\\\", or \\\"#### WALK\\\". Nothing may follow that line. Replies without such a final line waste your retry, then forfeit.\"}, {\"role\": \"user\", \"content\": \"Round 1. You open.\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(50)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}, {\"role\": \"user\", \"content\": \"Round 3. Opponent: #### OFFER(124)\"}, {\"role\": \"assistant\", \"content\": \"#### OFFER(60)\", \"reasoning_content\": null, \"tool_calls\": null, \"provider_state\": null}]",
+      "reward": 0.0,
+      "advantage": 0.0,
+      "metrics": "{\"bargaining_reward\": 0.0, \"deal_rate\": 0.0, \"positive_deal_rate\": 0.0, \"negative_deal_rate\": 0.0, \"walk_rate\": 0.0, \"forfeit_rate\": 0.0, \"timeout_rate\": 1.0, \"breakdown_rate\": 0.0, \"zopa_rate\": 1.0, \"zopa_walk_rate\": 0.0, \"learner_walk_rate\": 0.0, \"zopa_learner_walk_rate\": 0.0, \"num_turns\": 2.0}"
+    }
+  ]
+}

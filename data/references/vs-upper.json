@@ -1,0 +1,64 @@
+{
+  "bootstrap": {
+    "B": 10000,
+    "seed": 20260802
+  },
+  "episodes_dir": "frontier",
+  "reference": "full-information best response (market.best_response.BestResponse)",
+  "results": {
+    "buyer": {
+      "midpoint_reward": {
+        "blind_mean": 0.5280742858011688,
+        "blind_wins": 38,
+        "ci95": [
+          -0.5276639197356364,
+          -0.31461179470742345
+        ],
+        "model_mean": 0.10644159722958864,
+        "model_wins": 0,
+        "paired_mean_model_minus_blind": -0.42163268857158015,
+        "ties": 26
+      },
+      "n": 64,
+      "surplus_share": {
+        "blind_mean": 0.5843496429005843,
+        "blind_wins": 38,
+        "ci95": [
+          -0.33655142967238605,
+          -0.18487500538968515
+        ],
+        "model_mean": 0.32665829861479434,
+        "model_wins": 0,
+        "paired_mean_model_minus_blind": -0.25769134428579005,
+        "ties": 26
+      }
+    },
+    "seller": {
+      "midpoint_reward": {
+        "blind_mean": 0.4811220018160778,
+        "blind_wins": 29,
+        "ci95": [
+          -0.3871868846478849,
+          -0.1988767860925672
+        ],
+        "model_mean": 0.18992276959393053,
+        "model_wins": 0,
+        "paired_mean_model_minus_blind": -0.2911992322221473,
+        "ties": 35
+      },
+      "n": 64,
+      "surplus_share": {
+        "blind_mean": 0.5296235009080389,
+        "blind_wins": 29,
+        "ci95": [
+          -0.32891344305971026,
+          -0.1559071532299569
+        ],
+        "model_mean": 0.29027388479696525,
+        "model_wins": 0,
+        "paired_mean_model_minus_blind": -0.23934961611107364,
+        "ties": 35
+      }
+    }
+  }
+}
