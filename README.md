@@ -2,7 +2,7 @@
 
 Code, archived bargaining episodes, reference calculations, and companion figures for Mohid Butt's paper, accepted at **SLM-Agents (SLMs for Agentic Systems) and FAST, NeurIPS 2026 workshops**.
 
-[Paper and reviews on OpenReview](https://openreview.net/forum?id=m1gDHXY8ST) · [Offline companion figures](figures/index.html) · [Reproduction checks](scripts/reproduce.py)
+[Paper (PDF)](https://mohid.io/wip/neurips26.pdf) · [Offline companion figures](figures/index.html) · [Reproduction checks](scripts/reproduce.py)
 
 Two players alternate integer offers, accept a standing offer, or walk away. The environment computes a zero-sum reward from the agreed price and both players' reservation values. It supports scripted opponents, an exact best response with privileged opponent information, and a searched history-blind offer sequence with standing-offer-reactive acceptance.
 
@@ -106,7 +106,7 @@ This release reproduces calculations from archived outputs. It does not include 
   title = {Deal With It! Diagnosing Post-Training in Bargaining, from Fluency to Surplus Extraction},
   year = {2026},
   note = {Accepted at SLM-Agents (SLMs for Agentic Systems) and FAST, NeurIPS 2026 Workshops},
-  url = {https://openreview.net/forum?id=m1gDHXY8ST}
+  url = {https://mohid.io/wip/neurips26.pdf}
 }
 ```
 
